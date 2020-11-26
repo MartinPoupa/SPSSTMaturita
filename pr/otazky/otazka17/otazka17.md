@@ -7,7 +7,7 @@
 |7\.|**Aplikační vrstva**|data|HTTP, FTP, SSH, MQTT|komunikace aplikací|
 |4\.|**Transportní vrstva**|segment|TCP, UDP|spojuje příjemce s odesílatelem|
 |3\.|**Síťová vrstva**|paket|IP4/IP6, ICMP, IGMP|stará se o správný přenos po síti a spojuje uzly| 
-|2\.|**Linková vrstva**|rámec|Ethernet, ARP|vrstva starající se o navázání správný a přenos na mediu|
+|2\.|**Linková vrstva**|rámec|Ethernet, ARP|vrstva starající se o bezchybný přenos na médiu|
 |1\.|**Fyzická vrstva**|bity|UTP kabel, Optické vlákno, WIFI|spojení mezi dvěma body|
 
 

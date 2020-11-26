@@ -12,13 +12,13 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 |---|---|---|---|
 |7\.|**Aplikační vrstva**|data|komunikace aplikací|
 |6\.|**Prezentační vrstva**|data|má na starosti kódování zprávy
-|5\.|**Relační vrstva**|data|má na starosti navázání spojení, udržení a jeho ukončení|
+|5\.|**Relační vrstva**|data|má na starosti navázání, udržení a ukončení spojení|
 |4\.|**Transportní vrstva**|segment|spojuje příjemce s odesílatelem|
 |3\.|**Síťová vrstva**|paket|stará se o správný přenos po síti a spojuje uzly|
-|2\.|**Linková vrstva**|rámec|vrstva starající se o navázání správný a přenos na mediu|
+|2\.|**Linková vrstva**|rámec|vrstva starající se o bezchybný přenos na médiu|
 |1\.|**Fyzická vrstva**|bity|spojení mezi dvěma body|
 
-## Vrstvy od Šerícha (Větičky) 
+## Vrstvy od Šerýcha (Větičky) 
 
 7\. **Aplikační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Vzájemnou komunikaci aplikací.  
 6\. **Prezentační vrstva** &nbsp; --> &nbsp; Správná prezentace dat na koncovém systému.  
