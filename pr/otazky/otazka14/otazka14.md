@@ -1,8 +1,6 @@
 # 14. Model telekomunikačního řetězce
-
 ## Teorie informace
-Informace -> Zpráva -> Signál
-
+**Informace** -> **Zpráva** -> **Signál**
 ### Informace
 - je nehmotná
 - můžu určit její množství
@@ -10,7 +8,6 @@ Informace -> Zpráva -> Signál
 - maximální rychlost C (ve vakuu), přenáším informaci v čase a prostoru
 - užitečné (informace jen o změně)
 - nadbytečné (redundantní), (o ustáleném stavu, opakující se)
-
 ### Zpráva
 - zhmotněná informace (třeba si něco zapíšu do sešitu)
 - fyzikální podstata (akustické vlnění, el. proud, chemické vazby, optika…)
@@ -18,23 +15,23 @@ Informace -> Zpráva -> Signál
   - diskrétní = digitálně skrz A/D převodník
   - spojitá = mluvení do mikrofonu
 - kódování (gramatika, pravidla)
-
 ### Signál 
 - Zprava která se hodí k určitému přenosu
 - Přechod z jednoho signálu na druhý :
 - Změna abecedy
 - Změna fyzikální podstaty
 - Změna kódování
-
 ### Redundance
 - Poměr užitečných informací vůči neužitečným
   - \- Zabírá místo			
   - \- Zvyšuje cenu
   - \+ Zvyšuje odolnost proti chybám
   
+  
 ## Model telekomunikačního řetězce
 co se zprávou musíme udělat, než ji pošleme po kanálu
 
+**zdroj** --> **kodér zdroje** --> **kodér kanálu** --> **Kanál** --> **dekodér kanálu** --> **dekodér zdroje** --> **příjemce**
 
 ### Kanál
 - spojuje dvě místa
@@ -52,46 +49,74 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - Zajištuje aby signál prošel nezměnění kanálem
 - př. RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
-- xDM	(Division Multiplex)
-- xDMA	(Division Multiple Access)
-  - SDMA	(Space Division Multiple Access)
+- **xDM**	(Division Multiplex)
+- **xDMA**	(Division Multiple Access)
+  - **SDMA**	(Space Division Multiple Access)
     - Rozdělím prostor na různé oblasti
-  - FDMA	(Frequency Division Multiple Access)
+  - **FDMA**	(Frequency Division Multiple Access)
     - Rozdělení spektra na části (kanály)
-  - WDMA	(Wave lenght Division Multiple Access)
+  - **WDMA**	(Wave lenght Division Multiple Access)
     - Rozdělení spektra na části (kanály)
-  - TDMA	(Time Division Multiple Access)
+  - **TDMA**	(Time Division Multiple Access)
     - Nejpoužívanější
-  - CDMA	(Code Division Multiple Access)
-    - Pomocí kódování správy
-
+  - **CDMA**	(Code Division Multiple Access)
+    - Pomocí kódování spr
+    
+    
 ## Komprese
-
 ### Ztrátová komprese
 - nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsazena, ale ve větší váze -> ztratí část informace
 - obrázek = snížení počtu barev, hudba = snížení vzorkovací frekvence
 - příklad:
-  - .jpg
-  - .mp3
+  - **jpg**
+  - **mp3**
   
 ### Bezeztrátová komprese
 - místo, aby věci opakovala, tak je jen popíše
 - neztratí data, pouze je upraví, aby byla kratš
 - příklad:
-  - .zip
-  - .rar
+  - **rle**
+  - **zip**
+  - **rar**
+  
+### RLE
+**RLE** je bezeztrátová komprese má široké využití.  
+Komprimuje tak že kóduje posloupnosti stejných hodnot. do dvojic (délka posloupnosti, hodnota). 
+
+**AAAACDDCBBBBBCDABBDBCCCC** --RLE--> 4**AC**2**DC**5**BCDA**2**BDB**4**C**
+
+### JPEG
+**JPEG** je strátová komprese používaná na obrásky.  
+
+- Postup komprimace: 
+  1. obrázek převedu do **YCbCr**
+  2. Snížení přesnosti informací o barvě (blok: barva 16x16, jas 8x8)
+  3. Složky obrázku jsou následně rozděleny do bloků a na každém bloku je provedena diskrétní transformace
+  4. provede se kvantizace (zde dochází k ztrátová komprese)
+  5. zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
+  
+  
 
 ### MPEG 
-DVB2 	MPEG2
-DVB 	MPEG2
-
-Stream -> 	gop(12 frejmů)
-		typy 
-		I - obrázek  .jpg
-		P - předvídání
-		B - bidirectional 
-
-I fream - .jpg
-
-Makro blok = 2x2 blok
-Blok = 8x8 pixel
+MPEG je *Moving Picture Experts Group* komprese pro video a audio.  
+- deruh: 
+  - **MPEG4** (video, DVB2)
+  - **MPEG3** (nepoužívá se, byla zrušena)
+  - **MPEG2** (DVD, DVB)
+  - **MPEG1** (zvuk ,CD)
+  
+#### MPEG2
+- Postup komprimace: 
+  1. Stream se rozdělí group ty obsahují 12 frejmů  
+  typy frejmů:
+    - **I** - obrázek  .jpg
+    - **P** - předvídání
+    - **B** - bidirectional 
+  2. frejmům se přisadí tip  
+  v pořadí:
+    - **I B B P B B P B B P B B**
+  
+  
+  
+  
+  
