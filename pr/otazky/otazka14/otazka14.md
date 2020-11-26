@@ -37,11 +37,11 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 
 
 ### Kanál
-spojuje dvě místa
-přenáší signál
-drát, trubka, vzduch, optické vlákno…
-výhoda : spojuje dva body
-nevýhody : je drahý, dělá chyby, neumí přenést vše, omezená kapacita
+- spojuje dvě místa
+- přenáší signál
+- drát, trubka, vzduch, optické vlákno…
+- výhoda : spojuje dva body
+- nevýhody : je drahý, dělá chyby, neumí přenést vše, omezená kapacita
 ### Kodér zdroje 
 (komprese)
 - má za úkol signál zkrátit (snižuje redundanci)

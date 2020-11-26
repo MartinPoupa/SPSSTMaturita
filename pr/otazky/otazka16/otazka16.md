@@ -8,14 +8,43 @@
 
 ## Model OSI
 
+7 Aplikační vrstva
+
+6 Prezentační vrstva
+
+5 Relační vrstva
+
+4 Transportní vrstva
+
+3 Síťová vrstva
+
+2 Linková vrstva
+
+1 Fyzická vrstva
 
 
 
 ## Vrstvy od Šerícha (Větičky) 
-1. Fyzická &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Přenos jednotlivých bitů a synchronizace
-2. Linková &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Spolehlivý přenos mezi sousedními systémy
-3. Síťová &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zajišťuje přenos mezi libovolnými systémy, nejdůležitější
-4. Transportní &nbsp; Transport dat s předem definovanými vlastnostmi
-5. Relační &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stará se o zahájení, průběh a ukončení jednotlivých relací
-6. Prezentační &nbsp; Správná prezentace dat na koncovém systému
-7. Aplikační &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vzájemnou komunikaci aplikací
+
+7 Aplikační vrstva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vzájemnou komunikaci aplikací
+
+6 Prezentační vrstva &nbsp; Správná prezentace dat na koncovém systému
+
+5 Relační vrstva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stará se o zahájení, průběh a ukončení jednotlivých relací
+
+4 Transportní vrstva &nbsp; Transport dat s předem definovanými vlastnostmi
+
+3 Síťová vrstva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zajišťuje přenos mezi libovolnými systémy, nejdůležitější
+
+2 Linková vrstva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spolehlivý přenos mezi sousedními systémy
+
+1 Fyzická vrstva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Přenos jednotlivých bitů a synchronizace
+
+
+
+
+
+
+
+
+
