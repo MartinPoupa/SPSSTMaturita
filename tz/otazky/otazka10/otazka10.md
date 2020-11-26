@@ -1,0 +1,1 @@
+# 10. Přijímače – superhet a SDR
