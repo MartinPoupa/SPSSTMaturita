@@ -16,11 +16,11 @@
   - spojitá = mluvení do mikrofonu
 - kódování (gramatika, pravidla)
 ### Signál 
-- Zprava která se hodí k určitému přenosu
-- Přechod z jednoho signálu na druhý :
-- Změna abecedy
-- Změna fyzikální podstaty
-- Změna kódování
+- zpráva, která se hodí k určitému přenosu
+- přechod z jednoho signálu na druhý :
+- změna abecedy
+- změna fyzikální podstaty
+- změna kódování
 ### Redundance
 - Poměr užitečných informací vůči neužitečným
   - \- Zabírá místo			
@@ -45,14 +45,14 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - zrychluje a zlevňuje komunikaci
 - př. .zip, .rar, MPEG (.mpg, .mp3, .mp4)
 ### Kodér kanálu
-- má za úkol signál přizpůsobit parametrům kanálu tak aby dobře prošel
-- Zajištuje aby signál prošel nezměnění kanálem
+- má za úkol signál přizpůsobit parametrům kanálu tak, aby dobře prošel
+- zajištuje, aby signál prošel nezměněný kanálem
 - př. RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
 - **xDM**	(Division Multiplex)
 - **xDMA**	(Division Multiple Access)
   - **SDMA**	(Space Division Multiple Access)
-    - Rozdělím prostor na různé oblasti
+    - Rozdělení prostoru na různé oblasti
   - **FDMA**	(Frequency Division Multiple Access)
     - Rozdělení spektra na části (kanály)
   - **WDMA**	(Wave lenght Division Multiple Access)
@@ -60,12 +60,12 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
   - **TDMA**	(Time Division Multiple Access)
     - Nejpoužívanější
   - **CDMA**	(Code Division Multiple Access)
-    - Pomocí kódování spr
+    - Pomocí kódování zprávy
     
     
 ## Komprese
 ### Ztrátová komprese
-- nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsazena, ale ve větší váze -> ztratí část informace
+- nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsažena, ale ve větší váze -> ztratí část informace
 - obrázek = snížení počtu barev, hudba = snížení vzorkovací frekvence
 - příklad:
   - **jpg**
@@ -73,33 +73,33 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
   
 ### Bezeztrátová komprese
 - místo, aby věci opakovala, tak je jen popíše
-- neztratí data, pouze je upraví, aby byla kratš
+- neztratí data, pouze je upraví, aby byla kratší
 - příklad:
   - **rle**
   - **zip**
   - **rar**
   
 ### RLE
-**RLE** je bezeztrátová komprese má široké využití.  
-Komprimuje tak že kóduje posloupnosti stejných hodnot. do dvojic (délka posloupnosti, hodnota). 
+**RLE** je bezeztrátová komprese a má široké využití.  
+Komprimuje tak, že kóduje posloupnosti stejných hodnot do dvojic (délka posloupnosti, hodnota). 
 
 **AAAACDDCBBBBBCDABBDBCCCC** --RLE--> 4**AC**2**DC**5**BCDA**2**BDB**4**C**
 
 ### JPEG
-**JPEG** je strátová komprese používaná na obrásky.  
+**JPEG** je ztrátová komprese používaná na obrázky.  
 
 - Postup komprimace: 
   1. obrázek převedu do **YCbCr**
   2. Snížení přesnosti informací o barvě (blok: barva 16x16, jas 8x8)
   3. Složky obrázku jsou následně rozděleny do bloků a na každém bloku je provedena diskrétní transformace
-  4. provede se kvantizace (zde dochází k ztrátová komprese)
-  5. zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
+  4. Provede se kvantizace (zde dochází k ztrátové kompresi)
+  5. Zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
   
   
 
 ### MPEG 
 MPEG je *Moving Picture Experts Group* komprese pro video a audio.  
-- deruh: 
+- druh: 
   - **MPEG4** (video, DVB2)
   - **MPEG3** (nepoužívá se, byla zrušena)
   - **MPEG2** (DVD, DVB)
@@ -107,7 +107,7 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
   
 #### MPEG2
 - Postup komprimace: 
-  1. Stream se rozdělí group ty obsahují 12 frejmů  
+  1. Stream se rozdělí do group, ty obsahují 12 frejmů  
   typy frejmů:
     - **I** - obrázek  .jpg
     - **P** - předvídání
