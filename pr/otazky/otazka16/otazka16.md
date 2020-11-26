@@ -18,7 +18,7 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 |2\.|**Linková vrstva**|rámec|vrstva starající se o navázání správný a přenos na mediu|
 |1\.|**Fyzická vrstva**|bity|spojení mezi dvěma body|
 
-## Vrstvy od Šerícha (Větičky) 
+## Vrstvy od Šerýcha (Větičky) 
 
 7\. **Aplikační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Vzájemnou komunikaci aplikací.  
 6\. **Prezentační vrstva** &nbsp; --> &nbsp; Správná prezentace dat na koncovém systému.  

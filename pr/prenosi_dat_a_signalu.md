@@ -138,6 +138,7 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
 ## ISO/OSI
 Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá jako názorný příklad řešení komunikace v počítačových a telekomunikačních sítích pomocí vrstevnatého modelu, kde jsou jednotlivé vrstvy nezávislé a snadno nahraditelné.
 
+
 ### Pravidla OSI modelu
 - Žádnou vrstvu nesmím vynechat
 - Vrstvu mohu rozdělit do podvrstev
@@ -163,6 +164,7 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 3\. **Síťová vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Zajišťuje přenos mezi libovolnými systémy, nejdůležitější.  
 2\. **Linková vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Spolehlivý přenos mezi sousedními systémy.  
 1\. **Fyzická vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Přenos jednotlivých bitů a synchronizace.
+
 # 17. TCP/IP protocol stack
 
 
