@@ -24,7 +24,7 @@
 
 
 
-## Vrstvy od Šerícha (Větičky) 
+## Vrstvy od Šerýcha (Větičky) 
 
 7 Aplikační vrstva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vzájemnou komunikaci aplikací
 

@@ -49,13 +49,13 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - př. .zip, .rar, MPEG (.mpg, .mp3, .mp4)
 ### Kodér kanálu
 - má za úkol signál přizpůsobit parametrům kanálu tak aby dobře prošel
-- Zajištuje aby signál prošel nezměnění kanálem
+- Zajištuje aby signál prošel nezměněný kanálem
 - př. RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
 - xDM	(Division Multiplex)
 - xDMA	(Division Multiple Access)
   - SDMA	(Space Division Multiple Access)
-    - Rozdělím prostor na různé oblasti
+    - Rozdělení prostoru na různé oblasti
   - FDMA	(Frequency Division Multiple Access)
     - Rozdělení spektra na části (kanály)
   - WDMA	(Wave lenght Division Multiple Access)
@@ -68,7 +68,7 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 ## Komprese
 
 ### Ztrátová komprese
-- nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsazena, ale ve větší váze -> ztratí část informace
+- nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsažena, ale ve větší váze -> ztratí část informace
 - obrázek = snížení počtu barev, hudba = snížení vzorkovací frekvence
 - příklad:
   - .jpg
@@ -76,7 +76,7 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
   
 ### Bezeztrátová komprese
 - místo, aby věci opakovala, tak je jen popíše
-- neztratí data, pouze je upraví, aby byla kratš
+- neztratí data, pouze je upraví, aby byla kratší
 - příklad:
   - .zip
   - .rar
