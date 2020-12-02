@@ -1,6 +1,6 @@
 lakocion = "./"
-endFile = "prenosi_dat_a_signalu.md"
-sorceFolder = "otazky/"
+endFile = "pr/final/prenosi_dat_a_signalu.md"
+sorceFolder = "pr/otazky/"
 sorceName = "otazka"
 suffix = ".md"
 

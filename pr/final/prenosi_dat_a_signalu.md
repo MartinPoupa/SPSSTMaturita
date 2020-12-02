@@ -29,11 +29,11 @@
   - spojitá = mluvení do mikrofonu
 - kódování (gramatika, pravidla)
 ### Signál 
-- Zprava která se hodí k určitému přenosu
-- Přechod z jednoho signálu na druhý :
-- Změna abecedy
-- Změna fyzikální podstaty
-- Změna kódování
+- zpráva, která se hodí k určitému přenosu
+- přechod z jednoho signálu na druhý :
+- změna abecedy
+- změna fyzikální podstaty
+- změna kódování
 ### Redundance
 - Poměr užitečných informací vůči neužitečným
   - \- Zabírá místo			
@@ -58,14 +58,14 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - zrychluje a zlevňuje komunikaci
 - př. .zip, .rar, MPEG (.mpg, .mp3, .mp4)
 ### Kodér kanálu
-- má za úkol signál přizpůsobit parametrům kanálu tak aby dobře prošel
-- Zajištuje aby signál prošel nezměnění kanálem
+- má za úkol signál přizpůsobit parametrům kanálu tak, aby dobře prošel
+- zajištuje, aby signál prošel nezměněný kanálem
 - př. RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
 - **xDM**	(Division Multiplex)
 - **xDMA**	(Division Multiple Access)
   - **SDMA**	(Space Division Multiple Access)
-    - Rozdělím prostor na různé oblasti
+    - Rozdělení prostoru na různé oblasti
   - **FDMA**	(Frequency Division Multiple Access)
     - Rozdělení spektra na části (kanály)
   - **WDMA**	(Wave lenght Division Multiple Access)
@@ -73,12 +73,12 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
   - **TDMA**	(Time Division Multiple Access)
     - Nejpoužívanější
   - **CDMA**	(Code Division Multiple Access)
-    - Pomocí kódování spr
+    - Pomocí kódování zprávy
     
     
 ## Komprese
 ### Ztrátová komprese
-- nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsazena, ale ve větší váze -> ztratí část informace
+- nahradí nejméně potřebná data podobnými daty, která už jsou ve zprávě obsažena, ale ve větší váze -> ztratí část informace
 - obrázek = snížení počtu barev, hudba = snížení vzorkovací frekvence
 - příklad:
   - **jpg**
@@ -86,33 +86,33 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
   
 ### Bezeztrátová komprese
 - místo, aby věci opakovala, tak je jen popíše
-- neztratí data, pouze je upraví, aby byla kratš
+- neztratí data, pouze je upraví, aby byla kratší
 - příklad:
   - **rle**
   - **zip**
   - **rar**
   
 ### RLE
-**RLE** je bezeztrátová komprese má široké využití.  
-Komprimuje tak že kóduje posloupnosti stejných hodnot. do dvojic (délka posloupnosti, hodnota). 
+**RLE** je bezeztrátová komprese a má široké využití.  
+Komprimuje tak, že kóduje posloupnosti stejných hodnot do dvojic (délka posloupnosti, hodnota). 
 
 **AAAACDDCBBBBBCDABBDBCCCC** --RLE--> 4**AC**2**DC**5**BCDA**2**BDB**4**C**
 
 ### JPEG
-**JPEG** je strátová komprese používaná na obrásky.  
+**JPEG** je ztrátová komprese používaná na obrázky.  
 
 - Postup komprimace: 
   1. obrázek převedu do **YCbCr**
   2. Snížení přesnosti informací o barvě (blok: barva 16x16, jas 8x8)
   3. Složky obrázku jsou následně rozděleny do bloků a na každém bloku je provedena diskrétní transformace
-  4. provede se kvantizace (zde dochází k ztrátová komprese)
-  5. zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
+  4. Provede se kvantizace (zde dochází k ztrátové kompresi)
+  5. Zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
   
   
 
 ### MPEG 
 MPEG je *Moving Picture Experts Group* komprese pro video a audio.  
-- deruh: 
+- druh: 
   - **MPEG4** (video, DVB2)
   - **MPEG3** (nepoužívá se, byla zrušena)
   - **MPEG2** (DVD, DVB)
@@ -120,7 +120,7 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
   
 #### MPEG2
 - Postup komprimace: 
-  1. Stream se rozdělí group ty obsahují 12 frejmů  
+  1. Stream se rozdělí do group, ty obsahují 12 frejmů  
   typy frejmů:
     - **I** - obrázek  .jpg
     - **P** - předvídání
@@ -138,7 +138,6 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
 ## ISO/OSI
 Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá jako názorný příklad řešení komunikace v počítačových a telekomunikačních sítích pomocí vrstevnatého modelu, kde jsou jednotlivé vrstvy nezávislé a snadno nahraditelné.
 
-
 ### Pravidla OSI modelu
 - Žádnou vrstvu nesmím vynechat
 - Vrstvu mohu rozdělit do podvrstev
@@ -149,13 +148,13 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 |---|---|---|---|
 |7\.|**Aplikační vrstva**|data|komunikace aplikací|
 |6\.|**Prezentační vrstva**|data|má na starosti kódování zprávy
-|5\.|**Relační vrstva**|data|má na starosti navázání spojení, udržení a jeho ukončení|
+|5\.|**Relační vrstva**|data|má na starosti navázání, udržení a ukončení spojení|
 |4\.|**Transportní vrstva**|segment|spojuje příjemce s odesílatelem|
 |3\.|**Síťová vrstva**|paket|stará se o správný přenos po síti a spojuje uzly|
-|2\.|**Linková vrstva**|rámec|vrstva starající se o navázání správný a přenos na mediu|
+|2\.|**Linková vrstva**|rámec|vrstva starající se o bezchybný přenos na médiu|
 |1\.|**Fyzická vrstva**|bity|spojení mezi dvěma body|
 
-## Vrstvy od Šerícha (Větičky) 
+## Vrstvy od Šerýcha (Větičky) 
 
 7\. **Aplikační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Vzájemnou komunikaci aplikací.  
 6\. **Prezentační vrstva** &nbsp; --> &nbsp; Správná prezentace dat na koncovém systému.  
@@ -164,8 +163,6 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 3\. **Síťová vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Zajišťuje přenos mezi libovolnými systémy, nejdůležitější.  
 2\. **Linková vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Spolehlivý přenos mezi sousedními systémy.  
 1\. **Fyzická vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Přenos jednotlivých bitů a synchronizace.
-
-
 # 17. TCP/IP protocol stack
 
 
@@ -175,7 +172,7 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 |7\.|**Aplikační vrstva**|data|HTTP, FTP, SSH, MQTT|komunikace aplikací|
 |4\.|**Transportní vrstva**|segment|TCP, UDP|spojuje příjemce s odesílatelem|
 |3\.|**Síťová vrstva**|paket|IP4/IP6, ICMP, IGMP|stará se o správný přenos po síti a spojuje uzly| 
-|2\.|**Linková vrstva**|rámec|Ethernet, ARP|vrstva starající se o navázání správný a přenos na mediu|
+|2\.|**Linková vrstva**|rámec|Ethernet, ARP|vrstva starající se o bezchybný přenos na médiu|
 |1\.|**Fyzická vrstva**|bity|UTP kabel, Optické vlákno, WIFI|spojení mezi dvěma body|
 
 
@@ -196,10 +193,66 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 |12.| HTTP| 217.195.162.33    |192.168.1.180 |HTTP/1.1 200 OK (text/html)|8.|
 |13.| TCP | 192.168.1.180     |217.195.162.33|64986 → 80 [ACK]|10.|
 # 18. Linková vrstva a ethernet
+
+## Ethernet
+- Síťová technologie (LAN)
+- Nejrozšířenější síťová technologie
+- Zabírá první a druhou vrstvu OSI
+### Ethernet I
+- Topologie: BUS (sběrnice)
+- Richlost: 10Mbps
+- Kabel: Koaxiální kabel s impedancí 50 Ω (max 500 m kabelu)
+- Vznikl v letech  1972–1975 v laboratořích PARC firmy Xerox
+### Ethernet II
+- Topologie: Star
+- Richlost: 100 Mbps, 1 Gbps, 10 Gbps
+- Kabel: UTP kabel (CAT 5, CAT 5e, CAT 6 a CAT 7) (max 100 m kabelu)
+
+## tipi zpráv
+### unicast
+### multicast
+### broadcast
+
+
+
+## Linková vrstva
+### MAC adresa
+Ethernetová MAC adresa se skládá ze 48 bitů nař. (01:23:45:67:89:ab)
+MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
+
+### Rámec
+
+- Ethernet II Rámec:
+  | cílová mac adresa | zdrojová mac adresa |EtherType|data          |CRC          |  
+  |:-----------------:|:-------------------:|:-------:|:------------:|:-----------:|  
+  | 80 00 20 7A 3F 3E | 80 00 20 20 3A AE   | 08 00   | payload      | 00 20 20 3A | 
+  | 6 bytů            | 6 bytů              |2 bytů   |46 - 1500 bytů|4 bytů       |  
+  
+## ARP protokol
 # 19. Síťová vrstvaa IP adresace
+## IP adresa
+
+## Paket
 # 20. Transportní vrstva
+## TCP protokol
+## UDP protokol
 # 21. Aplikační vrstva
 # 22. Bezpečnost v sítích
 # 23. Switch
+
+ 
+<img src="picture/Workgroup-Switch-icon.png" alt="drawing" width="100"/><br>
+**L2 Switch**
+
+
+<img src="picture/Multilayer-Switch-icon.png" alt="drawing" width="100"/><br>
+**L3 Switch** 
+
+
+## Switchovací tabulka
+## VLAN
 # 24. Router
+<img src="picture/Router-icon.png" alt="drawing" width="100"/>
+
+## Roubovací tabulka
 # 25. Bezdrátové síťové technologie
