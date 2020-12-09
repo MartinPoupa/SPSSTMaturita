@@ -1,5 +1,5 @@
 # 22. Přístupové optické sítě – druhy a principy funkce
-všechno krom páteřní sítě 
+Všechno kromě páteřní sítě 
 
 ## PON
 pasive optical network

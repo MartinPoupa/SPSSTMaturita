@@ -6,25 +6,25 @@
 - Zabírá první a druhou vrstvu OSI
 ### Ethernet I
 - Topologie: BUS (sběrnice)
-- Richlost: 10Mbps
+- Rychlost: 10Mbps
 - Kabel: Koaxiální kabel s impedancí 50 Ω (max 500 m kabelu)
 - Vznikl v letech  1972–1975 v laboratořích PARC firmy Xerox
 ### Ethernet II
 - Topologie: Star
-- Richlost: 100 Mbps, 1 Gbps, 10 Gbps
+- Rychlost: 100 Mbps, 1 Gbps, 10 Gbps
 - Kabel: UTP kabel (CAT 5, CAT 5e, CAT 6 a CAT 7) (max 100 m kabelu)
 
-## tipi zpráv
-### unicast
-### multicast
-### broadcast
+## Typy zpráv
+### Unicast
+### Multicast
+### Broadcast
 
 
 ## Linková vrstva
 
 ### MAC adresa
 
-Ethernetová MAC adresa se skládá ze 48 bitů nař. (01:23:45:67:89:ab)
+Ethernetová MAC adresa se skládá ze 48 bitů např.: (01:23:45:67:89:ab).
 MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 
 ### Rámec
