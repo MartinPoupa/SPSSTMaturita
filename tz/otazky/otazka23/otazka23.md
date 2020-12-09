@@ -6,11 +6,11 @@
 
 ## Konektory
 
-Konektor na spojování optických vláken tvoří keramická ferule, v které je uchyceno skleněné vlákno. Ferule je uchycena do plastového pouzdra které zajištuje rovnání ferule vůči feruli na druhé straně.
+Konektor na spojování optických vláken tvoří keramická ferule, ve které je uchyceno skleněné vlákno. Ferule je uchycena do plastového pouzdra, které zajištuje rovnání ferule vůči feruli na druhé straně.
 
 ### PC ferule
 
-Konektor s označením **PC**  je většinou <font color="blue">**modrý**</font> ale může mít jakoukoli barvu.
+Konektor s označením **PC**  je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>
@@ -31,21 +31,21 @@ konektoru, jinak se zničí
 
 ### Typy konektorů
 #### SC konektor
-**SC** konektor je nepoužívanějším tipem konektoru.
+**SC** konektor je nepoužívanějším typem konektoru.  
 <img src="picture/SC_konektor.png" alt="drawing" width="350"/>
 <br>
 <br>
 <br>
 
 #### LC konektor
-**LC** konektor se většinou používá na zásuvních kartách v routrech a switčích.  
+**LC** konektor se většinou používá na zásuvných kartách v routrech a switčích.  
 <img src="picture/LC_konektor.png" alt="drawing" width="350"/>
 <br>
 <br>
 <br>
 
 #### E2000 konektor   
-**E2000** konektor se využívá na dálkovích trasách díki jeho vysoké spolehlivosti.   
+**E2000** konektor se využívá na dálkových trasách díky jeho vysoké spolehlivosti.   
 <img src="picture/E2000_konektor.png" alt="drawing" width="350"/><br>
 
 ## Spojky

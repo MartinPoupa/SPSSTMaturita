@@ -43,11 +43,11 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 (komprese)
 - má za úkol signál zkrátit (snižuje redundanci)
 - zrychluje a zlevňuje komunikaci
-- př. .zip, .rar, MPEG (.mpg, .mp3, .mp4)
+- př.: .zip, .rar, MPEG (.mpg, .mp3, .mp4)
 ### Kodér kanálu
 - má za úkol signál přizpůsobit parametrům kanálu tak, aby dobře prošel
-- zajištuje, aby signál prošel nezměněný kanálem
-- př. RS-232, I²C, Ethernet II
+- zajištuje, aby signál prošel kanálem nezměněný
+- př.: RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
 - **xDM**	(Division Multiplex)
 - **xDMA**	(Division Multiple Access)

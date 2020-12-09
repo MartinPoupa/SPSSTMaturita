@@ -1,11 +1,11 @@
 # 10. Přijímače – superhet a SDR
 
-## superhet
+## Superhet
 
 
 ## SDR
 
-převedu signál na na niší frekvenci pomocí superhetu 
+převedu signál na na nižší frekvenci pomocí superhetu 
 
 
 ### DDC
@@ -24,8 +24,8 @@ převedu signál na na niší frekvenci pomocí superhetu
 
 - BPF - filtr pro základní pásmo
 - ADC - A/D převodník
-- DDC - digitální směšovač (snižuje nosnou, posunuje ji o 90° a snižuje vzorkovací frekvenci)
-- CPU - signáloví procesor
+- DDC - digitální směšovač (snižuje frekvenci nosné, posunuje ji o 90° a snižuje vzorkovací frekvenci)
+- CPU - signálový procesor
 
 **DCC**  
 <img src="picture/dcc.png" alt="drawing" width="300"/><br>
@@ -49,8 +49,8 @@ převedu signál na na niší frekvenci pomocí superhetu
 
 
 - BPF - filtr pro základní pásmo
-- QSD - analogoví směšovač (snižuje nosnou, posunuje ji o 90° a snižuje vzorkovací frekvenci)
+- QSD - analogový směšovač (snižuje frekvenci nosné, posunuje ji o 90° a snižuje vzorkovací frekvenci)
 - ADC - A/D převodník
-- CPU - signáloví procesor
+- CPU - signálový procesor
  
  
