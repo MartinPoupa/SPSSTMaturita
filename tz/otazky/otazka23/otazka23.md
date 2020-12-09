@@ -10,21 +10,21 @@ Konektor na spojování optických vláken tvoří keramická ferule, v které j
 
 ### PC ferule
 
-Konektor s označením **PC**  je většinou <span style="color:blue">**modrý**</span> ale může mít jakoukoli barvu.
+Konektor s označením **PC**  je většinou <font color="blue">**modrý**</font> ale může mít jakoukoli barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>
 <br>
 
 ### APC ferule
-Konektor s označením **APC** je vždy <span style="color:green">**zelený**</span> a takřka nikdy nemá jinou barvu.
+Konektor s označením **APC** je vždy <font color="green">**zelený**</font> a takřka nikdy nemá jinou barvu.
 Ferule je zkosená, aby deflektovala odražené světlo.  
-<span style="color:red">**!!!**</span>
-<span style="color:green">**Zelený**</span>
+<font color="red">**!!!**</font>
+<font color="green">**Zelený**</font>
 konektor se smí zapojovat jen do
-<span style="color:green">**zeleného**</span>
+<font color="green">**zeleného**</font>
 konektoru, jinak se zničí
-<span style="color:red">**!!!**</span>
+<span style="color:red">**!!!**</font>
 
 <img src="picture/APC_ferule.png" alt="drawing" width="250"/><br>
 <br>

@@ -19,21 +19,23 @@ převedu signál na na niší frekvenci pomocí superhetu
 
 ### DDC
 
-**ant.**  <span style="color:red">--></span> **BPF** <span style="color:red">--></span> **ADC** <span style="color:green">--></span> **DDC** <span style="color:green">--></span> **CPU** <span style="color:green">--></span> **signal**
+**ant.**  <font color="red">--></font> **BPF** <font color="red">--></font> **ADC** <font color="green">--></font> **DDC** <font color="green">--></font> **CPU** <font color="green">--></font> **signal**
 
 - BPF - filtr pro základní pásmo
 - ADC - A/D převodník
 - DDC - digitální směšovač (snižuje nosnou, posunuje ji o 90° a snižuje vzorkovací frekvenci)
 - CPU - signáloví procesor
 
-
+**DCC**  
 <img src="picture/dcc.png" alt="drawing" width="300"/><br>
-**DCC**
+
 
 
 ### QSD
 
-**ant.**  <span style="color:red">--></span> **BPF**  <span style="color:red">--></span> **QSD**  <span style="color:red">--></span> **ADC** <span style="color:green">--></span> **CPU** <span style="color:green">--></span> **signal**
+**ant.**  <font color="red">--></font> **BPF** <font color="red">--></font> **QSD** <font color="red">--></font> **ADC** <font color="green">--></font> **CPU** <font color="green">--></font> **signal**
+
+
 
 - BPF - filtr pro základní pásmo
 - QSD - analogoví směšovač (snižuje nosnou, posunuje ji o 90° a snižuje vzorkovací frekvenci)
@@ -83,21 +85,21 @@ Konektor na spojování optických vláken tvoří keramická ferule, v které j
 
 ### PC ferule
 
-Konektor s označením **PC**  je většinou <span style="color:blue">**modrý**</span> ale může mít jakoukoli barvu.
+Konektor s označením **PC**  je většinou <font color="blue">**modrý**</font> ale může mít jakoukoli barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>
 <br>
 
 ### APC ferule
-Konektor s označením **APC** je vždy <span style="color:green">**zelený**</span> a takřka nikdy nemá jinou barvu.
+Konektor s označením **APC** je vždy <font color="green">**zelený**</font> a takřka nikdy nemá jinou barvu.
 Ferule je zkosená, aby deflektovala odražené světlo.  
-<span style="color:red">**!!!**</span>
-<span style="color:green">**Zelený**</span>
+<font color="red">**!!!**</font>
+<font color="green">**Zelený**</font>
 konektor se smí zapojovat jen do
-<span style="color:green">**zeleného**</span>
+<font color="green">**zeleného**</font>
 konektoru, jinak se zničí
-<span style="color:red">**!!!**</span>
+<span style="color:red">**!!!**</font>
 
 <img src="picture/APC_ferule.png" alt="drawing" width="250"/><br>
 <br>
