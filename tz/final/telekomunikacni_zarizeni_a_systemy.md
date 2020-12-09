@@ -126,7 +126,7 @@ konektoru, jinak se zničí
 
 ### Typy konektorů
 #### SC konektor
-**SC** konektor je nepoužívanějším tipem konektoru.
+**SC** konektor je nepoužívanějším tipem konektoru.  
 <img src="picture/SC_konektor.png" alt="drawing" width="350"/>
 <br>
 <br>
