@@ -1,4 +1,6 @@
 # 1. Elektromagnetické pole, hlavní vlastnosti
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;x={\frac{e}{c}}) 
 # 2. Sdělovací metalická vedení, primární parametry
 # 3. Sekundární parametry metalického vedení
 # 4. Odrazy na vedení, Smithův diagram
@@ -13,7 +15,7 @@
 # 13. Modulace diskrétními signály
 # 14. Model telekomunikačního řetězce
 ## Teorie informace
-**Informace** -> **Zpráva** -> **Signál**
+    Informace -> Zpráva -> Signál
 ### Informace
 - je nehmotná
 - můžu určit její množství
@@ -44,7 +46,7 @@
 ## Model telekomunikačního řetězce
 co se zprávou musíme udělat, než ji pošleme po kanálu
 
-**zdroj** --> **kodér zdroje** --> **kodér kanálu** --> **Kanál** --> **dekodér kanálu** --> **dekodér zdroje** --> **příjemce**
+    zdroj --> kodér zdroje --> kodér kanálu --> Kanál --> dekodér kanálu --> dekodér zdroje --> příjemce
 
 ### Kanál
 - spojuje dvě místa
@@ -96,7 +98,7 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 **RLE** je bezeztrátová komprese a má široké využití.  
 Komprimuje tak, že kóduje posloupnosti stejných hodnot do dvojic (délka posloupnosti, hodnota). 
 
-**AAAACDDCBBBBBCDABBDBCCCC** --RLE--> 4**AC**2**DC**5**BCDA**2**BDB**4**C**
+    AAAACDDCBBBBBCDABBDBCCCC --RLE--> 4AC2DC5BCDA2BDB4C
 
 ### JPEG
 **JPEG** je ztrátová komprese používaná na obrázky.  
@@ -127,7 +129,8 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
     - **B** - bidirectional 
   2. frejmům se přisadí tip  
   v pořadí:
-    - **I B B P B B P B B P B B**
+          I B B P B B P B B P B B
+    
   
   
   
@@ -192,6 +195,8 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 |11. | TCP | 217.195.162.33    |192.168.1.180 |80 -> 64986 [ACK]|8.|
 |12.| HTTP| 217.195.162.33    |192.168.1.180 |HTTP/1.1 200 OK (text/html)|8.|
 |13.| TCP | 192.168.1.180     |217.195.162.33|64986 → 80 [ACK]|10.|
+ 
+ 
 # 18. Linková vrstva a ethernet
 
 ## Ethernet
@@ -214,9 +219,10 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 ### broadcast
 
 
-
 ## Linková vrstva
-### MAC adresa
+
+### MAC adresa
+
 Ethernetová MAC adresa se skládá ze 48 bitů nař. (01:23:45:67:89:ab)
 MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 
@@ -252,7 +258,9 @@ MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 ## Switchovací tabulka
 ## VLAN
 # 24. Router
-<img src="picture/Router-icon.png" alt="drawing" width="100"/>
+
+<img src="picture/Router-icon.png" alt="drawing" width="100"/><br>
+**Router** 
 
 ## Roubovací tabulka
 # 25. Bezdrátové síťové technologie
