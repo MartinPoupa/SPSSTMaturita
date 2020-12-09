@@ -10,7 +10,17 @@ převedu signál na na niší frekvenci pomocí superhetu
 
 ### DDC
 
-**ant.**  <font color="red">--></font> **BPF** <font color="red">--></font> **ADC** <font color="green">--></font> **DDC** <font color="green">--></font> **CPU** <font color="green">--></font> **signal**
+**ant.**
+<font color="red">--></font>
+**BPF** 
+<font color="red">--></font> 
+**ADC** 
+<font color="green">--></font> 
+**DDC** 
+<font color="green">--></font>
+**CPU** 
+<font color="green">--></font> 
+**signal**
 
 - BPF - filtr pro základní pásmo
 - ADC - A/D převodník
@@ -24,7 +34,17 @@ převedu signál na na niší frekvenci pomocí superhetu
 
 ### QSD
 
-**ant.**  <font color="red">--></font> **BPF** <font color="red">--></font> **QSD** <font color="red">--></font> **ADC** <font color="green">--></font> **CPU** <font color="green">--></font> **signal**
+**ant.**
+<font color="red">--></font> 
+**BPF** 
+<font color="red">--></font> 
+**QSD** 
+<font color="red">--></font> 
+**ADC** 
+<font color="green">--></font> 
+**CPU** 
+<font color="green">--></font> 
+**signal**
 
 
 

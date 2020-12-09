@@ -258,6 +258,7 @@ MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 ## VLAN
 # 24. Router
 <img src="picture/Router-icon.png" alt="drawing" width="100"/>
+**Router** 
 
 ## Roubovací tabulka
 # 25. Bezdrátové síťové technologie
