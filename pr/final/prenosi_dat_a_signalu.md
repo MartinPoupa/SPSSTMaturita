@@ -58,11 +58,11 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 (komprese)
 - má za úkol signál zkrátit (snižuje redundanci)
 - zrychluje a zlevňuje komunikaci
-- př. .zip, .rar, MPEG (.mpg, .mp3, .mp4)
+- př.: .zip, .rar, MPEG (.mpg, .mp3, .mp4)
 ### Kodér kanálu
 - má za úkol signál přizpůsobit parametrům kanálu tak, aby dobře prošel
-- zajištuje, aby signál prošel nezměněný kanálem
-- př. RS-232, I²C, Ethernet II
+- zajištuje, aby signál prošel kanálem nezměněný
+- př.: RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
 - **xDM**	(Division Multiplex)
 - **xDMA**	(Division Multiple Access)
@@ -205,25 +205,25 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 - Zabírá první a druhou vrstvu OSI
 ### Ethernet I
 - Topologie: BUS (sběrnice)
-- Richlost: 10Mbps
+- Rychlost: 10Mbps
 - Kabel: Koaxiální kabel s impedancí 50 Ω (max 500 m kabelu)
 - Vznikl v letech  1972–1975 v laboratořích PARC firmy Xerox
 ### Ethernet II
 - Topologie: Star
-- Richlost: 100 Mbps, 1 Gbps, 10 Gbps
+- Rychlost: 100 Mbps, 1 Gbps, 10 Gbps
 - Kabel: UTP kabel (CAT 5, CAT 5e, CAT 6 a CAT 7) (max 100 m kabelu)
 
-## tipi zpráv
-### unicast
-### multicast
-### broadcast
+## Typy zpráv
+### Unicast
+### Multicast
+### Broadcast
 
 
 ## Linková vrstva
 
 ### MAC adresa
 
-Ethernetová MAC adresa se skládá ze 48 bitů nař. (01:23:45:67:89:ab)
+Ethernetová MAC adresa se skládá ze 48 bitů např.: (01:23:45:67:89:ab).
 MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 
 ### Rámec
