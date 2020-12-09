@@ -219,10 +219,9 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 ### broadcast
 
 
-
 ## Linková vrstva
 
-### MAC adresa  
+### MAC adresa
 
 Ethernetová MAC adresa se skládá ze 48 bitů nař. (01:23:45:67:89:ab)
 MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
