@@ -98,8 +98,35 @@ komunikace bod moc bodů
 ## Vlákna
 
 ## Sváry
+### Sváry
+<img src="picture/svar.png" alt="drawing" width="500"/><br>
+<br>
 
+### svářečka
 <img src="picture/svarecka.jpeg" alt="drawing" width="350"/><br>
+<br>
+
+### svařování
+1. na vlákno nasadíme ochranu sváru.  
+<img src="picture/svarovani-step1.png" alt="drawing" width="200"/><br>
+<br>
+2. pomocí kleští sundáme primární ochranu.   
+<img src="picture/svarovani-step2.png" alt="drawing" width="200"/><br>
+<br>
+3. očistíme hadříkem namočením do izopropil alkoholu.  
+<img src="picture/svarovani-step3.png" alt="drawing" width="200"/><br>
+<br>
+4. ulomíme konec vlákna na lámačce.  
+<img src="picture/svarovani-step4.png" alt="drawing" width="200"/><br>
+<br>
+5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří.  
+<img src="picture/svarovani-step5.png" alt="drawing" width="200"/><br>
+<br>
+6. na svár nasadíme ochranu a zapečeme.  
+<img src="picture/svarovani-step6.png" alt="drawing" width="200"/><br>
+<br>
+7. opatrně zatáhneme za čerství svár pokud se neroztrhne je v pořádku.  
+<img src="picture/svarovani-step7.png" alt="drawing" width="200"/><br>
 <br>
 
 ## Konektory
