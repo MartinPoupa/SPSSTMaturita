@@ -4,6 +4,9 @@
 
 ## Sváry
 
+<img src="picture/svarecka.jpeg" alt="drawing" width="350"/><br>
+<br>
+
 ## Konektory
 
 Konektor na spojování optických vláken tvoří keramická ferule, ve které je uchyceno skleněné vlákno. Ferule je uchycena do plastového pouzdra, které zajištuje rovnání ferule vůči feruli na druhé straně.
