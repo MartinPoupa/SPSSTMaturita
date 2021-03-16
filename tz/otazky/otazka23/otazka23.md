@@ -1,5 +1,10 @@
 # 23. Komponenty pro optické přístupové sítě
 
+
+
+
+
+
 ## Vlákna
 
 ## Sváry
@@ -83,3 +88,27 @@ konektoru, jinak se zničí
 <img src="picture/E2000_konektor.png" alt="drawing" width="350"/><br>
 
 ## Spojky
+
+## Spletly
+
+## Zesilovače
+
+# Kubalik
+
+OLT,  ONT  
+
+vlákna  pro vnější vedení ,  pro vnitřní instalace 
+
+kabely   - do kabelovodu , do země,   závěsné,   domovní - riser kabel  
+
+kabelovody ,  trubičky,  mikrotrubičky,  zafukování  
+
+konektory  - PC,APC, útlum, útlum odrazu , reflektogram  
+
+splittery   - výpočet útlumu  
+
+rozvaděče , cable management v rozvaděči  
+
+účastnické zásuvky 
+
+měření sítě pomocí OTDR   
