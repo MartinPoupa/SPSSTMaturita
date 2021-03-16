@@ -1,6 +1,6 @@
 # 14. Model telekomunikačního řetězce
 ## Teorie informace
-**Informace** -> **Zpráva** -> **Signál**
+    Informace -> Zpráva -> Signál
 ### Informace
 - je nehmotná
 - můžu určit její množství
@@ -31,7 +31,7 @@
 ## Model telekomunikačního řetězce
 co se zprávou musíme udělat, než ji pošleme po kanálu
 
-**zdroj** --> **kodér zdroje** --> **kodér kanálu** --> **Kanál** --> **dekodér kanálu** --> **dekodér zdroje** --> **příjemce**
+    zdroj --> kodér zdroje --> kodér kanálu --> Kanál --> dekodér kanálu --> dekodér zdroje --> příjemce
 
 ### Kanál
 - spojuje dvě místa
@@ -43,11 +43,11 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 (komprese)
 - má za úkol signál zkrátit (snižuje redundanci)
 - zrychluje a zlevňuje komunikaci
-- př. .zip, .rar, MPEG (.mpg, .mp3, .mp4)
+- př.: .zip, .rar, MPEG (.mpg, .mp3, .mp4)
 ### Kodér kanálu
 - má za úkol signál přizpůsobit parametrům kanálu tak, aby dobře prošel
-- zajištuje, aby signál prošel nezměněný kanálem
-- př. RS-232, I²C, Ethernet II
+- zajištuje, aby signál prošel kanálem nezměněný
+- př.: RS-232, I²C, Ethernet II
 ### Mnohonásobný přenos kanálem
 - **xDM**	(Division Multiplex)
 - **xDMA**	(Division Multiple Access)
@@ -83,7 +83,7 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 **RLE** je bezeztrátová komprese a má široké využití.  
 Komprimuje tak, že kóduje posloupnosti stejných hodnot do dvojic (délka posloupnosti, hodnota). 
 
-**AAAACDDCBBBBBCDABBDBCCCC** --RLE--> 4**AC**2**DC**5**BCDA**2**BDB**4**C**
+    AAAACDDCBBBBBCDABBDBCCCC --RLE--> 4AC2DC5BCDA2BDB4C
 
 ### JPEG
 **JPEG** je ztrátová komprese používaná na obrázky.  
@@ -114,7 +114,8 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
     - **B** - bidirectional 
   2. frejmům se přisadí tip  
   v pořadí:
-    - **I B B P B B P B B P B B**
+          I B B P B B P B B P B B
+    
   
   
   
