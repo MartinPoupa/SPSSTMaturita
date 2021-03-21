@@ -1,5 +1,17 @@
 # 12. Družicové systémy
 
+Družice je umělí satelit planety 
+
+## oběžné dráhy
+
+### GPS
+
+
+
+
+
+
+
 Vysvětlete pojem geostacionární telekomunikační satelit.Jaké systémy jsou potřeba pro jeho provoz? Jakémá základní parametry
 
 Jaký je dosah satelitní komunikace na zemi. Čím je dosah satelitu určen?
