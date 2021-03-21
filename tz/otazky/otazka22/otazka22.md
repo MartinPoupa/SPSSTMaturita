@@ -5,7 +5,7 @@ Všechno kromě páteřní sítě
 pasive optical network
 
 ### P2P
-komunikace bod bod  
+komunikace bod -> bod  
 používá se například pro firmy
 
       
@@ -13,8 +13,8 @@ používá se například pro firmy
 
 
 ### P2MP
-komunikace bod moc bodů  
-požívá se pro 
+komunikace bod -> moc bodů  
+požívá se pro technologii FTTH
 
                                     / <--> user
                   TDM              /  <--> user

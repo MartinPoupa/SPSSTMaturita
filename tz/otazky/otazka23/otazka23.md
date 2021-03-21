@@ -8,15 +8,15 @@
 ## Vlákna
 
 ## Sváry
-### Sváry
+### Svár
 <img src="picture/svar.png" alt="drawing" width="500"/><br>
 <br>
 
-### svářečka
+### Svářečka
 <img src="picture/svarecka.jpeg" alt="drawing" width="350"/><br>
 <br>
 
-### svařování
+### Svařování
 
 1. na vlákno nasadíme ochranu sváru.  
 <img src="picture/svarovani-step1.png" alt="drawing" width="200"/><br>
@@ -26,7 +26,7 @@
 <img src="picture/svarovani-step2.png" alt="drawing" width="200"/><br>
 
 
-3. očistíme hadříkem namočením do izopropil alkoholu.  
+1. očistíme hadříkem namočeným do izopropil alkoholu.  
 <img src="picture/svarovani-step3.png" alt="drawing" width="200"/><br>
 
 4. ulomíme konec vlákna na lámačce.  
@@ -89,7 +89,7 @@ konektoru, jinak se zničí
 
 ## Spojky
 
-## Spletly
+## Splitry
 
 ## Zesilovače
 
