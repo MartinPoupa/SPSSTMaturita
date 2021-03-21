@@ -35,21 +35,21 @@
 5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří.  
 <img src="picture/svarovani-step5.png" alt="drawing" width="200"/><br>
 
-6. na svár nasadíme ochranu a zapečeme.  
+1. na svár přemístíme ochranu a zapečeme.  
 <img src="picture/svarovani-step6.png" alt="drawing" width="200"/><br>
 
 
-7. opatrně zatáhneme za čerství svár pokud se neroztrhne je v pořádku.  
+1. opatrně zatáhneme za čerstvý svár, pokud se neroztrhne je v pořádku.  
 <img src="picture/svarovani-step7.png" alt="drawing" width="200"/><br>
 
 
 ## Konektory
 
-Konektor na spojování optických vláken tvoří keramická ferule, ve které je uchyceno skleněné vlákno. Ferule je uchycena do plastového pouzdra, které zajištuje rovnání ferule vůči feruli na druhé straně.
+Konektor na spojování optických vláken tvoří keramická ferule, ve které je uchyceno skleněné vlákno. Ta je uchycena do plastového pouzdra, které zajištuje její rovnání vůči feruli na druhé straně.
 
 ### PC ferule
 
-Konektor s označením **PC**  je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
+Konektor s označením **PC** je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>
@@ -60,7 +60,7 @@ Konektor s označením **APC** je vždy <font color="green">**zelený**</font> a
 Ferule je zkosená, aby deflektovala odražené světlo.  
 <font color="red">**!!!**</font>
 <font color="green">**Zelený**</font>
-konektor se smí zapojovat jen do
+konektor se může zapojovat jen do
 <font color="green">**zeleného**</font>
 konektoru, jinak se zničí
 <span style="color:red">**!!!**</font>
