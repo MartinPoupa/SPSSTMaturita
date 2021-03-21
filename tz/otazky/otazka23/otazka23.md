@@ -60,7 +60,7 @@ Konektor s označením **APC** je vždy <font color="green">**zelený**</font> a
 Ferule je zkosená, aby deflektovala odražené světlo.  
 <font color="red">**!!!**</font>
 <font color="green">**Zelený**</font>
-konektor se smí zapojovat jen do
+konektor se může zapojovat jen do
 <font color="green">**zeleného**</font>
 konektoru, jinak se zničí
 <span style="color:red">**!!!**</font>

@@ -3,14 +3,14 @@
 
 ## Modulace
 
-### spojité
-### diskrétní
+### Spojité
+### Diskrétní
 
 
 ### spojité - analogová
 U = A *sin (t * \omega + \pí)
 
-#### jednoducé
+#### jednoduché
 
 ##### AM
 
