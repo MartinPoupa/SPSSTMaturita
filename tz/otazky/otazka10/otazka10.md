@@ -2,13 +2,29 @@
 
 ## Superhet
 
+```
+                 ^
+                /
+    ant. --> filtr --> směšovač --> filtr --> zesilovač --> detektor --> nz. frekvence
+              /           ^  
+                          |/
+                         ozs 
+                         /
+                         
+                         
+                         
+```                    
 
-## SDR
+
+
+
+## SDR 
 
 převedu signál na na nižší frekvenci pomocí superhetu 
 
+### Přijímač
 
-### DDC
+#### DDC
 
 **ant.**
 <font color="red">--></font>
@@ -32,7 +48,7 @@ převedu signál na na nižší frekvenci pomocí superhetu
 
 
 
-### QSD
+#### QSD
 
 **ant.**
 <font color="red">--></font> 
@@ -54,3 +70,12 @@ převedu signál na na nižší frekvenci pomocí superhetu
 - CPU - signálový procesor
  
  
+### Vysílač
+
+                      I | \
+                   / -> |  >
+                  /     | /
+        cpu => D/A   
+                  \   Q |
+                   \ -> |
+                        |
