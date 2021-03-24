@@ -35,3 +35,4 @@ důvod zavedené PBů
 - analogové
 - digitální ústředny
 - VoIP – Asterisk    
+
