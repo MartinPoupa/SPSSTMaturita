@@ -39,6 +39,7 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - drát, trubka, vzduch, optické vlákno…
 - výhoda : spojuje dva body
 - nevýhody : je drahý, dělá chyby, neumí přenést vše, omezená kapacita
+- chyby: rušení a zkreslení
 ### Kodér zdroje 
 (komprese)
 - má za úkol signál zkrátit (snižuje redundanci)

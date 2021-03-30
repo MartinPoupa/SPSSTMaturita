@@ -87,15 +87,42 @@ důvod zavedené PBů
 - VoIP – Asterisk    
 # 3. Digitalizace telefonního signálu
 
-co to je, k čemu to slouží 
+Digitalizace telefonního signálu je převod analogového signálu na digitální a na spět.
+
+Výhodou je jednoduší zpracování signálu a nižší zkreslení.
+
+
+## Převodníky
+
+
+### vzorkování
+
+#### Shannonův–Nyquistův–Kotělnikovův teorém
+vzorkovací kmitočet pro telefonní hovor
+
+
+### kvantování
+#### kvantizační zkreslení
+
+
+### kodování
+#### nelineární kvantování 
+(lin a potom se to neli zkomprimuje)
+- A zákon
+- µ zákon
+
+## PCM
+
+**TDM**
+ 
+
+
 
 parametry lidské řeči, kmitočtový rozsah, úroveň signálu  
 
 Shannon-Kotělnikův teorém , vzorkovací kmitočet pro telefonní hovor 
 
 vzorkování, kvantování, kódování, kvantizační zkreslení   
-
-nelineární kvantování – A zákon,  µ zákon  
 
 PCM  
 # 4. Digitální spojování – články T a S
@@ -292,6 +319,18 @@ Vysvětlete pojmy:trunková síť, celulární síť, síť s přepojováním ok
 Vysvětlete, jak jsou tvořeny kmitočtové plánypro celulární sítě. Vkolika sektorech zpravidlapracuje jedna základnová stanice?
 # 12. Družicové systémy
 
+Družice je umělí satelit planety 
+
+## oběžné dráhy
+
+### GPS
+
+
+
+
+
+
+
 Vysvětlete pojem geostacionární telekomunikační satelit.Jaké systémy jsou potřeba pro jeho provoz? Jakémá základní parametry
 
 Jaký je dosah satelitní komunikace na zemi. Čím je dosah satelitu určen?
@@ -415,7 +454,7 @@ Všechno kromě páteřní sítě
 pasive optical network
 
 ### P2P
-komunikace bod bod  
+komunikace bod -> bod  
 používá se například pro firmy
 
       
@@ -423,8 +462,8 @@ používá se například pro firmy
 
 
 ### P2MP
-komunikace bod moc bodů  
-požívá se pro 
+komunikace bod -> moc bodů  
+požívá se pro technologii FTTH
 
                                     / <--> user
                   TDM              /  <--> user
@@ -488,15 +527,15 @@ EPON
 ## Vlákna
 
 ## Sváry
-### Sváry
+### Svár
 <img src="picture/svar.png" alt="drawing" width="500"/><br>
 <br>
 
-### svářečka
+### Svářečka
 <img src="picture/svarecka.jpeg" alt="drawing" width="350"/><br>
 <br>
 
-### svařování
+### Svařování
 
 1. na vlákno nasadíme ochranu sváru.  
 <img src="picture/svarovani-step1.png" alt="drawing" width="200"/><br>
@@ -506,7 +545,7 @@ EPON
 <img src="picture/svarovani-step2.png" alt="drawing" width="200"/><br>
 
 
-3. očistíme hadříkem namočením do izopropil alkoholu.  
+1. očistíme hadříkem namočeným do izopropil alkoholu.  
 <img src="picture/svarovani-step3.png" alt="drawing" width="200"/><br>
 
 4. ulomíme konec vlákna na lámačce.  
@@ -515,21 +554,21 @@ EPON
 5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří.  
 <img src="picture/svarovani-step5.png" alt="drawing" width="200"/><br>
 
-6. na svár nasadíme ochranu a zapečeme.  
+1. na svár přemístíme ochranu a zapečeme.  
 <img src="picture/svarovani-step6.png" alt="drawing" width="200"/><br>
 
 
-7. opatrně zatáhneme za čerství svár pokud se neroztrhne je v pořádku.  
+1. opatrně zatáhneme za čerstvý svár, pokud se neroztrhne je v pořádku.  
 <img src="picture/svarovani-step7.png" alt="drawing" width="200"/><br>
 
 
 ## Konektory
 
-Konektor na spojování optických vláken tvoří keramická ferule, ve které je uchyceno skleněné vlákno. Ferule je uchycena do plastového pouzdra, které zajištuje rovnání ferule vůči feruli na druhé straně.
+Konektor na spojování optických vláken tvoří keramická ferule, ve které je uchyceno skleněné vlákno. Ta je uchycena do plastového pouzdra, které zajištuje její rovnání vůči feruli na druhé straně.
 
 ### PC ferule
 
-Konektor s označením **PC**  je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
+Konektor s označením **PC** je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>
@@ -540,7 +579,7 @@ Konektor s označením **APC** je vždy <font color="green">**zelený**</font> a
 Ferule je zkosená, aby deflektovala odražené světlo.  
 <font color="red">**!!!**</font>
 <font color="green">**Zelený**</font>
-konektor se smí zapojovat jen do
+konektor se může zapojovat jen do
 <font color="green">**zeleného**</font>
 konektoru, jinak se zničí
 <span style="color:red">**!!!**</font>
@@ -569,7 +608,7 @@ konektoru, jinak se zničí
 
 ## Spojky
 
-## Spletly
+## Splitry
 
 ## Zesilovače
 
