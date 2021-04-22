@@ -5,6 +5,25 @@
 # 3. Sekundární parametry metalického vedení
 # 4. Odrazy na vedení, Smithův diagram
 # 5. Optická vlákna – druhy a jejich vlastnosti
+
+optické vlákno je skleněné vlákno složené z více vrstev skla. toto vlákno se používá na přenos světla na velké vzdálenosti.
+
+<img src="picture/uhel.png" alt="drawing" width="400"/><br>
+
+
+numerická apertura ?
+
+disperze
+vidová
+chromatická
+polaruzační
+
+
+## Jednovidová vlákna
+
+
+
+## Mnohovidová vlákna
 # 6. Konstrukce a pokládka optických kabelů, výroba optických vláken
 # 7. Měření parametrů optických vláken
 # 8. Bezdrátový přenos signálu – energetická bilance
@@ -106,15 +125,55 @@ A, φ ---> |X| ---> |\ B/2| ---> B/2
 # 9. Antény a jejich parametry
 # 10. Pozemské spoje bod-bod
 
-je obousměrné bezdrátové propojení dvou bobů úským
+Spoj bod-bod je obousměrné bezdrátové propojení dvou bobů úzkým paprskem.
+provozují se na frekvencích od 100 MHz do 300 GHz, jak v licenčních tak i v bez licenčních pásmech. 
 
-100 MHz - 100 GHz 
+Tyto spoje se často používají na propojení váleních stanic které jsou mimo infrastrukturu.
+
+<img src="picture/bodbod.png" alt="drawing" width="500"/><br>
+
+## Modulace
+  - 2, 4-PSK
+  - 256, 512, 1024-QAM 
 
 
-# utlum
-## atmosférou
-## počasí
-## únik
+## Výkonová bilance
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;P_P=P_V+G_V+G_P-L_S-L_N-L_{FSL})
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;P_V) výkon vysílače [dBm]
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;G_V) zisk vysílací antény [dBi]
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;G_P) zisk vysílací antény [dBi]
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;L_S) celkové stálé ztráty [dB]
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;L_N) celkové náhodné ztráty [dB]
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;L_{FSL})ztráty volným prostorem (Free Space Loss)
+
+### Frenelova zóna
+Prostor v kterém se šíří většina energie vysílání mezi body.
+
+Vypadá jako párek.
+
+![](https://latex.codecogs.com/svg.latex?\Large&space;b_1[m]=17,32({\frac{d_1d_2}{fd}})^{\frac{1}{2}}) 
+
+<img src="picture/frenel.png" alt="drawing" width="400"/><br>
+
+### Útlum
+#### Šířením volným prostorem 
+  Tento utlum záleží na frekvenci a vzdáleností vychází z Maksfelových rovnic.
+  
+  ![](https://latex.codecogs.com/svg.latex?\Large&space;L_{FSL}[db]=92.4+20log(d[km])+20log(f[Ghz]))
+#### Hydrometeory
+  je útlum způsobený počasím silný déšt, mlha a sněžení.
+
+  tento útlum se odvíjí od podnebí v kterém se nachází spoj.
+
+#### Rychlí únik
+  Více vidové šíření. Signály jsou posunuté díky odrazům a nelinearitě atmosféry.
 # 11. Signály a jejich spektrum, kapacita přenosového kanálu
 # 12. Modulace spojitými signály
 # 13. Modulace diskrétními signály
@@ -385,6 +444,20 @@ MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 ## VLAN
 # 19. Síťová vrstvaa IP adresace
 ## IP adresa
+V4
+verze
+masky
+
+
+V6
+zkrácení
+
+multikást
+
+speciální adresi :  ::1/128 - loopback 
+                    FE80::/12 - 
+
+maska = prefix
 
 ## Paket
 # 20. Transportní vrstva

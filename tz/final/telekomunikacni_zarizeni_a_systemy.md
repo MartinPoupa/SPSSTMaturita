@@ -85,6 +85,7 @@ důvod zavedené PBů
 - analogové
 - digitální ústředny
 - VoIP – Asterisk    
+
 # 3. Digitalizace telefonního signálu
 
 Digitalizace telefonního signálu je převod analogového signálu na digitální a na spět.
@@ -540,17 +541,29 @@ Co to je takzvaná diferenciální GPS?
 # 16. DAB/DAB+
 # 17. Zdroje světla pro telekomunikační systémy
 
-co to je, k čemu to slouží 
+Zdroje světla slouží k tomu aby vyslali signál po optickém vláknu.
+
+## parametry
+- vlnová délka λ v optické komunikaci se používají tito (850 nm , 1310 nm a 1550 nm)
+- víkon P  0 dB = 1 mW
+
+<img src="picture/spektrum_skla.png" alt="drawing" width="400"/><br>
+
+
+
 
 základní parametry používaného světla ( λ, P, spektrální charakteristika, .... ) a jejich zdůvodnění vzhledem k parametrům vláken 
 
-LED 
+## Zdroje světla
+### LED 
 
-polovodičový laser 
+### polovodičový Laser 
+
+#### pásmový model laseru
+
+
 
 emise, absorpce, stimulovaná emise, koherentní záření , energie fotonu 
-
-pásmový model laseru 
 
 čerpání, vyprázdněná oblast 
 
