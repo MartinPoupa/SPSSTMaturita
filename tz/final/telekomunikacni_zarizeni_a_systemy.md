@@ -146,6 +146,76 @@ bezeztrátová spojovací pole  - TST, STS
 ústředny EWSD a S12  
 # 5. Signalizace ve spojovacích sítích
 
+**Signalizace** (v telefonních sítích) je proces ke sestavení a ukončení telefonního hovoru
+
+typy signalazice 
+CAS - stejný kanál jako hovor
+CCS - zvlášsní kanál
+
+##stavi Signalizace
+
+1. klid - klid
+2. obsazení (vizvedneme telefon)
+3. volba (natuáme číslo)
+4. vizvánení
+5. hovor - klid
+6. ukončení hovoru
+
+
+
+
+## Přenašeč tipu U
+typ CAS
+analogová Signalizace
+### stavi 
+klid - 48V, 0A
+obsazení - stejnosměrný proud pokles V, teče 2OmA
+volba - tónová nebo pulzní(pulzi 100 ms)
+vyzvánění - střídavé napětí 50Hz/25Hz 75V
+vyzvednutí - stejnosměrný proud pokles V, teče 2OmA 
+ukončení hovoru - 48V, 0A
+
+## Signalizace DSS1 
+typ CAS 
+digitální Signalizace
+DSS1 používá se na ISDN rozhraní.
+### ISDN
+zdroj
+http://www.elearn.vsb.cz/archivcd/FEI/ISDN/isdn_text.pdf
+#### vrstvi 
+1. fizická - AMI
+2. linková - HDLC
+3. Sítová - DSS1
+
+### stavba packetu
+
+Protocol discriminator
+
+### stavi 
+<img src="picture/DSS1.png" alt="drawing" width="300"/><br>
+
+
+## Signalizace SS7
+typ CCS
+digitální Signalizace
+
+### dělení sítí
+- NAT 0 - provider
+- NAT 1 - stát
+- INAT 0 - mezistátní (evropa, usa)
+- INAT 1 - mezikontinettální (země)
+
+### typi ustředen
+- SP
+- STP 
+
+zdroj
+http://ozeas.sdb.cz/panska/3A/TS/vyuka/SS7/adoc.pub_signalizani-system-ss7.pdf
+
+
+kubalík 
+
+
 co to je, k čemu to slouží 
 
 základní stavy signalizace ( klid, obsazení, volba, závěr, ......) 
@@ -160,7 +230,7 @@ porovnání s modelem OSI
 
 popis signalizační sítě, úrovně, SP, STP  
 
-MTP, TUP, ISUP, SCCP  
+MTP, TUP, ISUP, SCCP  vrstvi
 
 popis průběhu signalizace při spojení účastníků   
 # 6. Přípojky ISDN
@@ -313,10 +383,126 @@ převedu signál na na nižší frekvenci pomocí superhetu
                    \ -> |
                         |
 # 11. Architektura mobilních sítí (GSM, GPRS, LTE)
+<!-- 
+## Architektura mobilních sítí
 
-Vysvětlete pojmy:trunková síť, celulární síť, síť s přepojováním okruhů (CS), síť s přepojováním paketů (PS).
+### Zkratky
+  - RAN (Radio Access Network) -
+  - UE (User Equipmen) - uživatelský terminál (mobilní telefon)
+  - BTS (Base transceiver station) - základnové stanice
+
+### typy síť
+
+#### trunková síť -->
+
+
+#### Celulární síť
+Celulární síť je metoda pokrytí oblasti signálem.
+Oblast je rozdělena do podobě velkých částí které se nazývají **buňky** (cell). Většinou mají tvar šestiúhelníků. V bunkách se opakují stejné frekvence ale ne ve dvodvou sousedních. Svazkem se nazívají bunky s rozdílnou frekvencí. Svazky můžeme skládat libovolně vedle sebe aniž by došlo k rušení.
+
+<img src="picture/cellularnetwork.png" alt="drawing" width="400"/><br>
+
+
+<!-- ## síť s přepojováním okruhů (CS)
+## síť s pepínání paketů (PS)
 
 Vysvětlete, jak jsou tvořeny kmitočtové plánypro celulární sítě. Vkolika sektorech zpravidlapracuje jedna základnová stanice?
+ -->
+
+
+## G0
+### AMR 
+**Automatizovaný Městský Radiotelefon**
+
+AMR byla Celulární síť s přepojováními okruhy, s analogovou signalizací a s analogovým přenosem hlasu.
+AMR nepodporovala mobilitu, museli jste vědět kde se uživatel nachází.
+
+
+
+## G1
+### NMT
+**Nordic Mobile Telephone**
+
+NMT byla Celulární síť s přepojováními okruhy, s digitální signalizací s analogovým přenosem hlasu.
+
+Přístup byl vázán na konkrétní stanici, SIM negzistovala.
+
+
+## G2
+### GSM
+**Global System for Mobile Communications**
+
+GSM je Celulární síť s přepojováními okruhy, s digitální signalizací s digitální přenosem hlasu.
+
+Uživatelská práva jsou vázány na SIM.
+
+    G2      
+    BTS (Base transceiver station) = základnové stanice
+    BSC (Base Station Controller) = řídící stanice 
+    UE (User Equipmen) = uživatelský terminál (mobilní telefon)
+    MSC () = ustředna 
+
+#### Přístupové metody
+Přístupové metody v GSM jsou **FDAM** a **TDAM**.
+FDAM jsou oddělené jednotlivé BTS ve svazku (Celulární síť). TDAM jsou uděleny jednotlivé time sloty pro komunikaci s UE. Každá frekvence je rozděla na 8 time slotů, přičemž je jeden vyhrazen signalizaci.
+
+<img src="picture/xdma.png" alt="drawing" width="400"/><br>
+**A - FDAM, B - TDMA, C - CDMA**
+
+#### Pásma
+      1. 900 MHz
+      2. 1800 MHz
+
+<img src="picture/gsm.png" alt="drawing" width="500"/><br>
+
+
+### G2.5
+#### GSM s GPRS
+GPRS přenášet data pomocí technologie přepínání paketů (PS). Hlas se stále přenáší pomocí přepojováním okruhů (CS). 
+
+### G2.75
+#### GSM s EGPRS
+EGPRS došlo k zvýšení rychlosti přenosu dat. Díky změně modulace. 
+
+## G3
+### UMTS
+
+**Universal Mobile Telecommunications System**
+
+UMTS je Celulární síť s přepojováními okruhy, s digitální signalizací, s digitální přenosem hlasu a data se přepínání paketů.
+
+    G3      G2
+    NodeB = BTS
+    RNC   = BSC
+    
+#### Přístupové metody
+Přístupové metody v UMTS jsou **FDAM** a **CDMA**.
+FDAM jsou oddělené jednotlivé NodeB ve svazku (Celulární síť). CDMA jsou oddělené jednotlivé UE.
+
+#### Pásma
+      1. 1,2 GHz
+      
+<img src="picture/UMTS.jpg" alt="drawing" width="500"/><br>
+
+
+
+## G4
+### LTE
+**Long-Term Evolution**
+
+LTE je Celulární síť s přepínání paketů, s digitální signalizací a s digitální přenosem hlasu.
+
+    G4      G2
+    eNB  = BTS
+    eNB  = BSC
+
+
+<img src="picture/lte.jpg" alt="drawing" width="500"/><br>
+
+## G5
+
+
+mimo
 # 12. Družicové systémy
 
 Družice je umělí satelit planety 
