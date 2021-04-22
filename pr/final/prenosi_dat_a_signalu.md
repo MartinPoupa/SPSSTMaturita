@@ -1,4 +1,4 @@
-# 1. Elektromagnetické pole, hlavní vlastnosti
+# 1. Elektromagnetické pole, hlavní vlastnosmti
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;x={\frac{e}{c}}) 
 # 2. Sdělovací metalická vedení, primární parametry
@@ -8,8 +8,113 @@
 # 6. Konstrukce a pokládka optických kabelů, výroba optických vláken
 # 7. Měření parametrů optických vláken
 # 8. Bezdrátový přenos signálu – energetická bilance
+
+
+## Modulace
+
+### Spojité
+### Diskrétní
+
+
+### spojité - analogová
+U = A *sin (t * \omega + \pí)
+
+#### jednoduché
+
+##### AM
+
+- DSB
+- SSB
+  - USB
+  - LSB
+
+
+##### FM
+
+##### PM
+
+#### složené
+
+##### QAM
+
+**modulátor**
+
+```
+A ---> |X| ---
+        |      \
+      |π/2|     \
+        |        \
+Ω ----->         |+| ---> A, φ
+        |        /
+        |       /
+        |      /
+B ---> |X| ---
+```
+
+**demodulátor**
+
+```
+A, φ ---> |X| ---> |\ A/2|  ---> A/2
+           |     
+         |π/2|   
+           |        
+Ω -------->       
+           |        
+           |       
+           |      
+A, φ ---> |X| ---> |\ B/2| ---> B/2
+```
+
+### diskrétní - analogová
+
+
+
+### spojité - digitální
+
+##### QAM
+
+**modulátor**
+
+```
+A ---> |X| ---
+        |      \
+      |π/2|     \
+        |        \
+Ω ----->         |+| ---> A, φ
+        |        /
+        |       /
+        |      /
+B ---> |X| ---
+```
+
+**demodulátor**
+
+```
+A, φ ---> |X| ---> |\ A/2|  ---> A/2
+           |     
+         |π/2|   
+           |        
+Ω -------->       
+           |        
+           |       
+           |      
+A, φ ---> |X| ---> |\ B/2| ---> B/2
+
+```
+
+### diskrétní - digitální
 # 9. Antény a jejich parametry
 # 10. Pozemské spoje bod-bod
+
+je obousměrné bezdrátové propojení dvou bobů úským
+
+100 MHz - 100 GHz 
+
+
+# utlum
+## atmosférou
+## počasí
+## únik
 # 11. Signály a jejich spektrum, kapacita přenosového kanálu
 # 12. Modulace spojitými signály
 # 13. Modulace diskrétními signály
@@ -54,6 +159,7 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - drát, trubka, vzduch, optické vlákno…
 - výhoda : spojuje dva body
 - nevýhody : je drahý, dělá chyby, neumí přenést vše, omezená kapacita
+- chyby: rušení a zkreslení
 ### Kodér zdroje 
 (komprese)
 - má za úkol signál zkrátit (snižuje redundanci)
@@ -137,6 +243,44 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
   
   
 # 15. Síťové technologie
+
+
+## historie 
+model osi vznikal tehdy kdy se data posílali po telefoních kanálech.
+
+
+## členění modelu osi 
+
+### horizontální dělení
+dělení na sistémy 
+dva tipi
+- koncové systémy   (PC)
+- mezilehlé systémy [občas se mohou chovat jako koncové systémy] (switch, router)
+
+### vertikální dělení
+dělení na vrstvi
+
+
+#### větičky
+7\. **Aplikační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Vzájemnou komunikaci aplikací.  
+6\. **Prezentační vrstva** &nbsp; --> &nbsp; Správná prezentace dat na koncovém systému.  
+5\. **Relační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Stará se o zahájení, průběh a ukončení jednotlivých relací.  
+4\. **Transportní vrstva** &nbsp; --> &nbsp; Transport dat s předem definovanými vlastnostmi.  
+3\. **Síťová vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Zajišťuje přenos mezi libovolnými systémy, nejdůležitější.  
+2\. **Linková vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Spolehlivý přenos mezi sousedními systémy.  
+1\. **Fyzická vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Přenos jednotlivých bitů a synchronizace.
+
+## tok data modelem  
+
+### enkapsulace a dekapsulace
+N = číslo vrstvy
+```
+N + 1|            |PDU|                 |
+-----|------------|---|-----------------|
+N    |       {|PCI|SDU|PCI|} = PDU      |
+-----|--------|-----------|-------------|
+N - 1|   {|PCI|    SDU    |PCI|} = PDU  |
+```
 # 16. Referenční model OSI
 ## ISO/OSI
 Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá jako názorný příklad řešení komunikace v počítačových a telekomunikačních sítích pomocí vrstevnatého modelu, kde jsou jednotlivé vrstvy nezávislé a snadno nahraditelné.
@@ -208,10 +352,11 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 - Rychlost: 10Mbps
 - Kabel: Koaxiální kabel s impedancí 50 Ω (max 500 m kabelu)
 - Vznikl v letech  1972–1975 v laboratořích PARC firmy Xerox
-### Ethernet II
+### Ethernet II a IEEE 802.3 
 - Topologie: Star
 - Rychlost: 100 Mbps, 1 Gbps, 10 Gbps
 - Kabel: UTP kabel (CAT 5, CAT 5e, CAT 6 a CAT 7) (max 100 m kabelu)
+
 
 ## Typy zpráv
 ### Unicast
@@ -229,12 +374,15 @@ MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 ### Rámec
 
 - Ethernet II Rámec:
-  | cílová mac adresa | zdrojová mac adresa |EtherType|data          |CRC          |  
-  |:-----------------:|:-------------------:|:-------:|:------------:|:-----------:|  
-  | 80 00 20 7A 3F 3E | 80 00 20 20 3A AE   | 08 00   | payload      | 00 20 20 3A | 
-  | 6 bytů            | 6 bytů              |2 bytů   |46 - 1500 bytů|4 bytů       |  
+|Preambule|         | cílová mac adresa     | zdrojová mac adresa |EtherType|data          |CRC          |  
+|:-------:|:-------:|:--:|:----------------:|:-------------------:|:-------:|:------------:|:-----------:|  
+|         |         | 80 00 20 7A 3F 3E     | 80 00 20 20 3A AE   | 08 00   | payload      | 00 20 20 3A | 
+|7 bytů   | 1 bytů  | 6 bytů                | 6 bytů              |2 bytů   |46 - 1500 bytů|4 bytů       |  
   
-## ARP protokol
+## ARP protokol 
+
+
+## VLAN
 # 19. Síťová vrstvaa IP adresace
 ## IP adresa
 
