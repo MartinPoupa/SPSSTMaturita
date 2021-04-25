@@ -1,33 +1,33 @@
 # 1. Telefonní přístroj – princip, druhy
 
-## Co to je telefonní přístroj, k čemu to slouží 
-Telefon je komunikační přístroj který přenáší zvuk mezi dvěma pevnými body.
+## Co to je telefonní přístroj, k čemu slouží 
+Telefon je komunikační přístroj, který přenáší zvuk mezi dvěma pevnými body.
 
 
-## zvuk a jeho vlastnosti 
-(kmitočet, úroveň hlasitosti, lidská řeč)
+## Zvuk a jeho vlastnosti 
+Kmitočet, úroveň hlasitosti, lidská řeč
 
-## elektroakustické měniče
-převodníky elektrického signálu na zvukové vlnění a obráceně
-### mikrofon
+## Elektroakustické měniče
+Převodníky elektrického signálu na zvukové vlnění a obráceně
+### Mikrofon
 - uhlíkový mikrofon
 - dynamický mikrofon
 - kondenzatorový mikrofon
 
-### sluchátko
+### Sluchátko
 
-## telefonní přístroj MB (LB)
+## Telefonní přístroj MB (LB)
 schéma
 
 protimístné zapojení
 
-## telefonní přístroj AUT 
+## Telefonní přístroj AUT 
 schéma
 
 číselnice
 
 
-### signalizace u klasického telefonu AUT – přenašeč typu U 
+### Signalizace u klasického telefonu AUT – přenašeč typu U 
 
 #### pulzní volba
 
@@ -38,13 +38,13 @@ proudy
 volba
 
 
-## ochrana vedení proti rušení 
+## Ochrana vedení proti rušení 
 symetrické vedení
 
-## komunikace telefonu s ústřednou 
+## Komunikace telefonu s ústřednou 
 
 
-## další telefony
+## Další telefony
 ### ISDN 
 
 ### VoIP 
@@ -54,60 +54,60 @@ co to je, k čemu to slouží
 
 důvod zavedené PBů 
 
-## terminologie
+## Terminologie
 - pobočka
 - státní linka
 - svazek  
 
 
-## funkce Pobočkové ústředny
-### služby:  
+## Funkce Pobočkové ústředny
+### Služby:  
 - přepojení
 - přesměrování 
 - zpětné vyzvonění
 - konference
 - napojení do hovoru  
 
-### odchozí státní styk:  
+### Odchozí státní styk:  
 - oprávnění účastníků
 - číslovací plán telefonní sítě a jeho souvislost s oprávněními
 - volba operátora 10xx
 - GSM brána,
 - ARS - LCR ( u 2N: šetřící automat )  
 
-### příchozí státní styk:
+### Příchozí státní styk:
 - volání na spojovatelku 
 - provolba DID
 - provolba DISA
 - povinnost pobočky 11 – 11111 
 
-## tipy Pobočníkových ústředen:
+## Typy pobočníkových ústředen:
 - analogové
 - digitální ústředny
 - VoIP – Asterisk    
 
 # 3. Digitalizace telefonního signálu
 
-Digitalizace telefonního signálu je převod analogového signálu na digitální a na spět.
+Digitalizace telefonního signálu je převod analogového signálu na digitální a zpět.
 
-Výhodou je jednoduší zpracování signálu a nižší zkreslení.
+Výhodou je jednodušší zpracování signálu a nižší zkreslení.
 
 
 ## Převodníky
 
 
-### vzorkování
+### Vzorkování
 
 #### Shannonův–Nyquistův–Kotělnikovův teorém
-vzorkovací kmitočet pro telefonní hovor
+Vzorkovací kmitočet pro telefonní hovor
 
 
-### kvantování
-#### kvantizační zkreslení
+### Kvantování
+#### Kvantizační zkreslení
 
 
-### kodování
-#### nelineární kvantování 
+### Kódování
+#### Nelineární kvantování 
 (lin a potom se to neli zkomprimuje)
 - A zákon
 - µ zákon
@@ -119,11 +119,11 @@ vzorkovací kmitočet pro telefonní hovor
 
 
 
-parametry lidské řeči, kmitočtový rozsah, úroveň signálu  
+Parametry lidské řeči, kmitočtový rozsah, úroveň signálu  
 
 Shannon-Kotělnikův teorém , vzorkovací kmitočet pro telefonní hovor 
 
-vzorkování, kvantování, kódování, kvantizační zkreslení   
+Vzorkování, kvantování, kódování, kvantizační zkreslení   
 
 PCM  
 # 4. Digitální spojování – články T a S
@@ -147,18 +147,18 @@ bezeztrátová spojovací pole  - TST, STS
 ústředny EWSD a S12  
 # 5. Signalizace ve spojovacích sítích
 
-**Signalizace** (v telefonních sítích) je proces ke sestavení a ukončení telefonního hovoru
+**Signalizace** (v telefonních sítích) je proces k sestavení a ukončení telefonního hovoru
 
-typy signalazice 
+Typy signalazice 
 CAS - stejný kanál jako hovor
 CCS - zvlášsní kanál
 
-##stavi Signalizace
+## Stavy Signalizace
 
 1. klid - klid
-2. obsazení (vizvedneme telefon)
-3. volba (natuáme číslo)
-4. vizvánení
+2. obsazení (vyzvedneme telefon)
+3. volba (natutáme číslo)
+4. vyzvánění
 5. hovor - klid
 6. ukončení hovoru
 
@@ -168,31 +168,31 @@ CCS - zvlášsní kanál
 ## Přenašeč tipu U
 typ CAS
 analogová Signalizace
-### stavi 
-klid - 48V, 0A
-obsazení - stejnosměrný proud pokles V, teče 2OmA
-volba - tónová nebo pulzní(pulzi 100 ms)
-vyzvánění - střídavé napětí 50Hz/25Hz 75V
-vyzvednutí - stejnosměrný proud pokles V, teče 2OmA 
+### Stavy 
+klid - 48V, 0A <br> 
+obsazení - stejnosměrný proud pokles V, teče 2OmA<br> 
+volba - tónová nebo pulzní(pulzi 100 ms)<br> 
+vyzvánění - střídavé napětí 50Hz/25Hz 75V<br> 
+vyzvednutí - stejnosměrný proud pokles V, teče 2OmA<br>  
 ukončení hovoru - 48V, 0A
 
 ## Signalizace DSS1 
-typ CAS 
-digitální Signalizace
+typ CAS <br> 
+digitální signalizace<br> 
 DSS1 používá se na ISDN rozhraní.
 ### ISDN
 zdroj
 http://www.elearn.vsb.cz/archivcd/FEI/ISDN/isdn_text.pdf
-#### vrstvi 
-1. fizická - AMI
+#### Vrstvy 
+1. fyzická - AMI
 2. linková - HDLC
-3. Sítová - DSS1
+3. síťová - DSS1
 
-### stavba packetu
+### Stavba packetu
 
 Protocol discriminator
 
-### stavi 
+### Stavy 
 <img src="picture/DSS1.png" alt="drawing" width="300"/><br>
 
 
@@ -200,13 +200,13 @@ Protocol discriminator
 typ CCS
 digitální Signalizace
 
-### dělení sítí
+### Dělení sítí
 - NAT 0 - provider
 - NAT 1 - stát
 - INAT 0 - mezistátní (evropa, usa)
 - INAT 1 - mezikontinettální (země)
 
-### typi ustředen
+### Typy ústředen
 - SP
 - STP 
 
@@ -324,7 +324,7 @@ Vysvětlete, jak pracuje vysokofrekvenční zesilovač ve třídě C. Jaké má 
 
 ## SDR 
 
-převedu signál na na nižší frekvenci pomocí superhetu 
+Převedu signál na na nižší frekvenci pomocí superhetu 
 
 ### Přijímač
 
@@ -399,7 +399,7 @@ převedu signál na na nižší frekvenci pomocí superhetu
 
 #### Celulární síť
 Celulární síť je metoda pokrytí oblasti signálem.
-Oblast je rozdělena do podobě velkých částí které se nazývají **buňky** (cell). Většinou mají tvar šestiúhelníků. V bunkách se opakují stejné frekvence ale ne ve dvodvou sousedních. Svazkem se nazívají bunky s rozdílnou frekvencí. Svazky můžeme skládat libovolně vedle sebe aniž by došlo k rušení.
+Oblast je rozdělena do podobně velkých částí, které se nazývají **buňky** (cell). Většinou mají tvar šestiúhelníků. V buňkách se opakují stejné frekvence, ale ne ve dvodvou sousedních. Svazkem se nazývají buňky s rozdílnou frekvencí. Svazky můžeme skládat libovolně vedle sebe, aniž by došlo k rušení.
 
 <img src="picture/cellularnetwork.png" alt="drawing" width="400"/><br>
 
@@ -415,8 +415,8 @@ Vysvětlete, jak jsou tvořeny kmitočtové plánypro celulární sítě. Vkolik
 ### AMR 
 **Automatizovaný Městský Radiotelefon**
 
-AMR byla Celulární síť s přepojováními okruhy, s analogovou signalizací a s analogovým přenosem hlasu.
-AMR nepodporovala mobilitu, museli jste vědět kde se uživatel nachází.
+AMR byla celulární síť s přepojováními okruhy, analogovou signalizací a s analogovým přenosem hlasu.
+AMR nepodporovala mobilitu, museli jste vědět, kde se uživatel nachází.
 
 
 
@@ -424,16 +424,16 @@ AMR nepodporovala mobilitu, museli jste vědět kde se uživatel nachází.
 ### NMT
 **Nordic Mobile Telephone**
 
-NMT byla Celulární síť s přepojováními okruhy, s digitální signalizací s analogovým přenosem hlasu.
+NMT byla celulární síť s přepojováními okruhy, digitální signalizací s analogovým přenosem hlasu.
 
-Přístup byl vázán na konkrétní stanici, SIM negzistovala.
+Přístup byl vázán na konkrétní stanici, SIM neexistovala.
 
 
 ## G2
 ### GSM
 **Global System for Mobile Communications**
 
-GSM je Celulární síť s přepojováními okruhy, s digitální signalizací s digitální přenosem hlasu.
+GSM je celulární síť s přepojováními okruhy, digitální signalizací s digitální přenosem hlasu.
 
 Uživatelská práva jsou vázány na SIM.
 
@@ -441,11 +441,11 @@ Uživatelská práva jsou vázány na SIM.
     BTS (Base transceiver station) = základnové stanice
     BSC (Base Station Controller) = řídící stanice 
     UE (User Equipmen) = uživatelský terminál (mobilní telefon)
-    MSC () = ustředna 
+    MSC () = ústředna 
 
 #### Přístupové metody
 Přístupové metody v GSM jsou **FDAM** a **TDAM**.
-FDAM jsou oddělené jednotlivé BTS ve svazku (Celulární síť). TDAM jsou uděleny jednotlivé time sloty pro komunikaci s UE. Každá frekvence je rozděla na 8 time slotů, přičemž je jeden vyhrazen signalizaci.
+FDAM jsou oddělené jednotlivé BTS ve svazku (celulární síť). TDAM jsou uděleny jednotlivé time sloty pro komunikaci s UE. Každá frekvence je rozděla na 8 time slotů, přičemž je jeden vyhrazen signalizaci.
 
 <img src="picture/xdma.png" alt="drawing" width="400"/><br>
 **A - FDAM, B - TDMA, C - CDMA**
@@ -470,7 +470,7 @@ EGPRS došlo k zvýšení rychlosti přenosu dat. Díky změně modulace.
 
 **Universal Mobile Telecommunications System**
 
-UMTS je Celulární síť s přepojováními okruhy, s digitální signalizací, s digitální přenosem hlasu a data se přepínání paketů.
+UMTS je celulární síť s přepojováními okruhy, digitální signalizací, digitálním přenosem hlasu a data s přepínáním paketů.
 
     G3      G2
     NodeB = BTS
@@ -478,7 +478,7 @@ UMTS je Celulární síť s přepojováními okruhy, s digitální signalizací,
     
 #### Přístupové metody
 Přístupové metody v UMTS jsou **FDAM** a **CDMA**.
-FDAM jsou oddělené jednotlivé NodeB ve svazku (Celulární síť). CDMA jsou oddělené jednotlivé UE.
+FDAM jsou oddělené jednotlivé NodeB ve svazku (celulární síť). CDMA jsou oddělené jednotlivé UE.
 
 #### Pásma
       1. 1,2 GHz
@@ -491,7 +491,7 @@ FDAM jsou oddělené jednotlivé NodeB ve svazku (Celulární síť). CDMA jsou 
 ### LTE
 **Long-Term Evolution**
 
-LTE je Celulární síť s přepínání paketů, s digitální signalizací a s digitální přenosem hlasu.
+LTE je celulární síť s přepínáním paketů, s digitální signalizací a s digitálním přenosem hlasu.
 
     G4      G2
     eNB  = BTS
@@ -541,11 +541,11 @@ Co to je takzvaná diferenciální GPS?
 # 16. DAB/DAB+
 # 17. Zdroje světla pro telekomunikační systémy
 
-Zdroje světla slouží k tomu aby vyslali signál po optickém vláknu.
+Zdroje světla slouží k tomu, aby vyslaly signál po optickém vláknu.
 
-## parametry
-- vlnová délka λ v optické komunikaci se používají tito (850 nm , 1310 nm a 1550 nm)
-- víkon P  0 dB = 1 mW
+## Parametry
+- vlnová délka λ v optické komunikaci se používají tyto - 850 nm, 1310 nm a 1550 nm
+- výkon P  0 dB = 1 mW
 
 <img src="picture/spektrum_skla.png" alt="drawing" width="400"/><br>
 
@@ -736,28 +736,28 @@ EPON
 
 ### Svařování
 
-1. na vlákno nasadíme ochranu sváru.  
+1. na vlákno nasadíme ochranu sváru  
 <img src="picture/svarovani-step1.png" alt="drawing" width="200"/><br>
 
 
-2. pomocí kleští sundáme primární ochranu.   
+2. pomocí kleští sundáme primární ochranu   
 <img src="picture/svarovani-step2.png" alt="drawing" width="200"/><br>
 
 
-1. očistíme hadříkem namočeným do izopropil alkoholu.  
+1. očistíme hadříkem namočeným do izopropyl alkoholu.  
 <img src="picture/svarovani-step3.png" alt="drawing" width="200"/><br>
 
-4. ulomíme konec vlákna na lámačce.  
+4. ulomíme konec vlákna na lámačce  
 <img src="picture/svarovani-step4.png" alt="drawing" width="200"/><br>
 
-5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří.  
+5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří  
 <img src="picture/svarovani-step5.png" alt="drawing" width="200"/><br>
 
-1. na svár přemístíme ochranu a zapečeme.  
+1. na svár přemístíme ochranu a zapečeme  
 <img src="picture/svarovani-step6.png" alt="drawing" width="200"/><br>
 
 
-1. opatrně zatáhneme za čerstvý svár, pokud se neroztrhne je v pořádku.  
+1. opatrně zatáhneme za čerstvý svár, pokud se neroztrhne je v pořádku. 
 <img src="picture/svarovani-step7.png" alt="drawing" width="200"/><br>
 
 
@@ -767,7 +767,7 @@ Konektor na spojování optických vláken tvoří keramická ferule, ve které 
 
 ### PC ferule
 
-Konektor s označením **PC** je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
+Konektor s označením **PC** je většinou <font color="blue">**modrý**</font>, ale může mít i jakoukoli jinou barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>

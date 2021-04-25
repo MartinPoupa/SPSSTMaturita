@@ -1,4 +1,4 @@
-# 1. Elektromagnetické pole, hlavní vlastnosmti
+# 1. Elektromagnetické pole, hlavní vlastnosti
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;x={\frac{e}{c}}) 
 # 2. Sdělovací metalická vedení, primární parametry
@@ -125,10 +125,10 @@ A, φ ---> |X| ---> |\ B/2| ---> B/2
 # 9. Antény a jejich parametry
 # 10. Pozemské spoje bod-bod
 
-Spoj bod-bod je obousměrné bezdrátové propojení dvou bobů úzkým paprskem.
-provozují se na frekvencích od 100 MHz do 300 GHz, jak v licenčních tak i v bez licenčních pásmech. 
+Spoj bod-bod je obousměrné bezdrátové propojení dvou bodů úzkým paprskem.
+Provozují se na frekvencích od 100 MHz do 300 GHz, jak v licenčních, tak i v bezlicenčních pásmech. 
 
-Tyto spoje se často používají na propojení váleních stanic které jsou mimo infrastrukturu.
+Tyto spoje se často používají na propojení vzdálených stanic, které jsou mimo infrastrukturu.
 
 <img src="picture/bodbod.png" alt="drawing" width="500"/><br>
 
@@ -153,8 +153,8 @@ Tyto spoje se často používají na propojení váleních stanic které jsou mi
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;L_{FSL})ztráty volným prostorem (Free Space Loss)
 
-### Frenelova zóna
-Prostor v kterém se šíří většina energie vysílání mezi body.
+### Fresnelova zóna
+Prostor, ve kterém se šíří 60 % energie vysílané mezi body v **první** Fresnelově zóně.
 
 Vypadá jako párek.
 
@@ -164,16 +164,16 @@ Vypadá jako párek.
 
 ### Útlum
 #### Šířením volným prostorem 
-  Tento utlum záleží na frekvenci a vzdáleností vychází z Maksfelových rovnic.
+  Tento útlum záleží na frekvenci a vzdálenosti. Vychází z Maxwellových rovnic.
   
   ![](https://latex.codecogs.com/svg.latex?\Large&space;L_{FSL}[db]=92.4+20log(d[km])+20log(f[Ghz]))
 #### Hydrometeory
-  je útlum způsobený počasím silný déšt, mlha a sněžení.
+  Je útlum způsobený počasím - silný déšt, mlha a sněžení.
 
-  tento útlum se odvíjí od podnebí v kterém se nachází spoj.
+  Tento útlum se odvíjí od podnebí, ve kterém se nachází spoj.
 
-#### Rychlí únik
-  Více vidové šíření. Signály jsou posunuté díky odrazům a nelinearitě atmosféry.
+#### Rychlý únik
+  Vícevidové šíření. Signály jsou posunuté díky odrazům a nelinearitě atmosféry.
 # 11. Signály a jejich spektrum, kapacita přenosového kanálu
 # 12. Modulace spojitými signály
 # 13. Modulace diskrétními signály
@@ -196,10 +196,10 @@ Vypadá jako párek.
 - kódování (gramatika, pravidla)
 ### Signál 
 - zpráva, která se hodí k určitému přenosu
-- přechod z jednoho signálu na druhý :
-- změna abecedy
-- změna fyzikální podstaty
-- změna kódování
+- přechod z jednoho signálu na druhý:
+  - změna abecedy
+  - změna fyzikální podstaty
+  - změna kódování
 ### Redundance
 - Poměr užitečných informací vůči neužitečným
   - \- Zabírá místo			
@@ -216,8 +216,8 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - spojuje dvě místa
 - přenáší signál
 - drát, trubka, vzduch, optické vlákno…
-- výhoda : spojuje dva body
-- nevýhody : je drahý, dělá chyby, neumí přenést vše, omezená kapacita
+- výhoda: spojuje dva body
+- nevýhody: je drahý, dělá chyby, neumí přenést vše, omezená kapacita
 - chyby: rušení a zkreslení
 ### Kodér zdroje 
 (komprese)
@@ -272,7 +272,7 @@ Komprimuje tak, že kóduje posloupnosti stejných hodnot do dvojic (délka posl
   1. obrázek převedu do **YCbCr**
   2. Snížení přesnosti informací o barvě (blok: barva 16x16, jas 8x8)
   3. Složky obrázku jsou následně rozděleny do bloků a na každém bloku je provedena diskrétní transformace
-  4. Provede se kvantizace (zde dochází k ztrátové kompresi)
+  4. Provede se kvantizace (zde dochází ke ztrátové kompresi)
   5. Zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
   
   
@@ -287,12 +287,12 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
   
 #### MPEG2
 - Postup komprimace: 
-  1. Stream se rozdělí do group, ty obsahují 12 frejmů  
-  typy frejmů:
+  1. Stream se rozdělí do group, ty obsahují 12 framů.  
+  Typy framů:
     - **I** - obrázek  .jpg
     - **P** - předvídání
     - **B** - bidirectional 
-  2. frejmům se přisadí tip  
+  2. Framům se přisadí tip  
   v pořadí:
           I B B P B B P B B P B B
     
@@ -304,23 +304,23 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
 # 15. Síťové technologie
 
 
-## historie 
-model osi vznikal tehdy kdy se data posílali po telefoních kanálech.
+## Historie 
+Model OSI vznikal tehdy, kdy se data posílala po telefonních kanálech.
 
 
-## členění modelu osi 
+## Členění modelu OSI 
 
-### horizontální dělení
-dělení na sistémy 
-dva tipi
+### Horizontální dělení
+Dělení na systémy  
+Dva typy
 - koncové systémy   (PC)
 - mezilehlé systémy [občas se mohou chovat jako koncové systémy] (switch, router)
 
-### vertikální dělení
-dělení na vrstvi
+### Vertikální dělení
+Dělení na vrstvy
 
 
-#### větičky
+#### Větičky
 7\. **Aplikační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Vzájemnou komunikaci aplikací.  
 6\. **Prezentační vrstva** &nbsp; --> &nbsp; Správná prezentace dat na koncovém systému.  
 5\. **Relační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Stará se o zahájení, průběh a ukončení jednotlivých relací.  
@@ -329,9 +329,9 @@ dělení na vrstvi
 2\. **Linková vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Spolehlivý přenos mezi sousedními systémy.  
 1\. **Fyzická vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Přenos jednotlivých bitů a synchronizace.
 
-## tok data modelem  
+## Tok data modelem  
 
-### enkapsulace a dekapsulace
+### Enkapsulace a dekapsulace
 N = číslo vrstvy
 ```
 N + 1|            |PDU|                 |
@@ -373,7 +373,7 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 
 
 ## Vrstvový model TCP/IP
-|ČÍSLO|VRSTVA|JEDNOTKA DAT|PROTOKOLI|POPIS|
+|ČÍSLO|VRSTVA|JEDNOTKA DAT|PROTOKOLY|POPIS|
 |---|---|---|---|---|
 |7\.|**Aplikační vrstva**|data|HTTP, FTP, SSH, MQTT|komunikace aplikací|
 |4\.|**Transportní vrstva**|segment|TCP, UDP|spojuje příjemce s odesílatelem|
@@ -383,7 +383,7 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 
 
 ### Navazování spojení HTTP
-|n.|protokol|odesílatel|příjemce|zprava|odpověď|
+|n.|protokol|odesílatel|příjemce|zpráva|odpověď|
 |---|---|---|---|---|---|
 |1. | ARP | Apple_d1:12:b1    |Broadcast     |Who has 192.168.1.1 Tell 192.168.1.180| |
 |2. | ARP | Routerbo_24:dd:ae |Apple_d1:12:b1|192.168.1.254 is at 64:d1:54:24:dd:ae|2.|
@@ -427,7 +427,7 @@ Referenční model **ISO/OSI** (Open Standart for Interconnection) se používá
 
 ### MAC adresa
 
-Ethernetová MAC adresa se skládá ze 48 bitů např.: (01:23:45:67:89:ab).
+Ethernetová MAC adresa se skládá ze 48 bitů, např.: (01:23:45:67:89:ab).
 MAC adresa se nemění a je svázaná s konkrétní síťovou kartou
 
 ### Rámec
