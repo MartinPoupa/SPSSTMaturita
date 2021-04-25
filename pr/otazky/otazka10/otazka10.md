@@ -1,9 +1,9 @@
 # 10. Pozemské spoje bod-bod
 
-Spoj bod-bod je obousměrné bezdrátové propojení dvou bobů úzkým paprskem.
-provozují se na frekvencích od 100 MHz do 300 GHz, jak v licenčních tak i v bez licenčních pásmech. 
+Spoj bod-bod je obousměrné bezdrátové propojení dvou bodů úzkým paprskem.
+Provozují se na frekvencích od 100 MHz do 300 GHz, jak v licenčních, tak i v bezlicenčních pásmech. 
 
-Tyto spoje se často používají na propojení váleních stanic které jsou mimo infrastrukturu.
+Tyto spoje se často používají na propojení vzdálených stanic, které jsou mimo infrastrukturu.
 
 <img src="picture/bodbod.png" alt="drawing" width="500"/><br>
 
@@ -28,8 +28,8 @@ Tyto spoje se často používají na propojení váleních stanic které jsou mi
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;L_{FSL})ztráty volným prostorem (Free Space Loss)
 
-### Frenelova zóna
-Prostor v kterém se šíří většina energie vysílání mezi body.
+### Fresnelova zóna
+Prostor, ve kterém se šíří 60 % energie vysílané mezi body v **první** Fresnelově zóně.
 
 Vypadá jako párek.
 
@@ -39,13 +39,13 @@ Vypadá jako párek.
 
 ### Útlum
 #### Šířením volným prostorem 
-  Tento utlum záleží na frekvenci a vzdáleností vychází z Maksfelových rovnic.
+  Tento útlum záleží na frekvenci a vzdálenosti. Vychází z Maxwellových rovnic.
   
   ![](https://latex.codecogs.com/svg.latex?\Large&space;L_{FSL}[db]=92.4+20log(d[km])+20log(f[Ghz]))
 #### Hydrometeory
-  je útlum způsobený počasím silný déšt, mlha a sněžení.
+  Je útlum způsobený počasím - silný déšt, mlha a sněžení.
 
-  tento útlum se odvíjí od podnebí v kterém se nachází spoj.
+  Tento útlum se odvíjí od podnebí, ve kterém se nachází spoj.
 
-#### Rychlí únik
-  Více vidové šíření. Signály jsou posunuté díky odrazům a nelinearitě atmosféry.
+#### Rychlý únik
+  Vícevidové šíření. Signály jsou posunuté díky odrazům a nelinearitě atmosféry.

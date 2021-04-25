@@ -1,25 +1,25 @@
 # 3. Digitalizace telefonního signálu
 
-Digitalizace telefonního signálu je převod analogového signálu na digitální a na spět.
+Digitalizace telefonního signálu je převod analogového signálu na digitální a zpět.
 
-Výhodou je jednoduší zpracování signálu a nižší zkreslení.
+Výhodou je jednodušší zpracování signálu a nižší zkreslení.
 
 
 ## Převodníky
 
 
-### vzorkování
+### Vzorkování
 
 #### Shannonův–Nyquistův–Kotělnikovův teorém
-vzorkovací kmitočet pro telefonní hovor
+Vzorkovací kmitočet pro telefonní hovor
 
 
-### kvantování
-#### kvantizační zkreslení
+### Kvantování
+#### Kvantizační zkreslení
 
 
-### kodování
-#### nelineární kvantování 
+### Kódování
+#### Nelineární kvantování 
 (lin a potom se to neli zkomprimuje)
 - A zákon
 - µ zákon
@@ -31,10 +31,10 @@ vzorkovací kmitočet pro telefonní hovor
 
 
 
-parametry lidské řeči, kmitočtový rozsah, úroveň signálu  
+Parametry lidské řeči, kmitočtový rozsah, úroveň signálu  
 
 Shannon-Kotělnikův teorém , vzorkovací kmitočet pro telefonní hovor 
 
-vzorkování, kvantování, kódování, kvantizační zkreslení   
+Vzorkování, kvantování, kódování, kvantizační zkreslení   
 
 PCM  

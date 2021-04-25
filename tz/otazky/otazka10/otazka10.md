@@ -20,7 +20,7 @@
 
 ## SDR 
 
-převedu signál na na nižší frekvenci pomocí superhetu 
+Převedu signál na na nižší frekvenci pomocí superhetu 
 
 ### Přijímač
 

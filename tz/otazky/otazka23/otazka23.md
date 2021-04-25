@@ -18,28 +18,28 @@
 
 ### Svařování
 
-1. na vlákno nasadíme ochranu sváru.  
+1. na vlákno nasadíme ochranu sváru  
 <img src="picture/svarovani-step1.png" alt="drawing" width="200"/><br>
 
 
-2. pomocí kleští sundáme primární ochranu.   
+2. pomocí kleští sundáme primární ochranu   
 <img src="picture/svarovani-step2.png" alt="drawing" width="200"/><br>
 
 
-1. očistíme hadříkem namočeným do izopropil alkoholu.  
+1. očistíme hadříkem namočeným do izopropyl alkoholu.  
 <img src="picture/svarovani-step3.png" alt="drawing" width="200"/><br>
 
-4. ulomíme konec vlákna na lámačce.  
+4. ulomíme konec vlákna na lámačce  
 <img src="picture/svarovani-step4.png" alt="drawing" width="200"/><br>
 
-5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří.  
+5. vlákna upneme do svářečky, po zaklapnutí se automaticky svaří  
 <img src="picture/svarovani-step5.png" alt="drawing" width="200"/><br>
 
-1. na svár přemístíme ochranu a zapečeme.  
+1. na svár přemístíme ochranu a zapečeme  
 <img src="picture/svarovani-step6.png" alt="drawing" width="200"/><br>
 
 
-1. opatrně zatáhneme za čerstvý svár, pokud se neroztrhne je v pořádku.  
+1. opatrně zatáhneme za čerstvý svár, pokud se neroztrhne je v pořádku. 
 <img src="picture/svarovani-step7.png" alt="drawing" width="200"/><br>
 
 
@@ -49,7 +49,7 @@ Konektor na spojování optických vláken tvoří keramická ferule, ve které 
 
 ### PC ferule
 
-Konektor s označením **PC** je většinou <font color="blue">**modrý**</font>, ale může mít i jinou jakoukoli barvu.
+Konektor s označením **PC** je většinou <font color="blue">**modrý**</font>, ale může mít i jakoukoli jinou barvu.
 Ferule je plochá.
 
 <img src="picture/PC_ferule.png" alt="drawing" width="250"/><br>

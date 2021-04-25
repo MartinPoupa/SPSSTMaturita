@@ -1,23 +1,23 @@
 # 15. Síťové technologie
 
 
-## historie 
-model osi vznikal tehdy kdy se data posílali po telefoních kanálech.
+## Historie 
+Model OSI vznikal tehdy, kdy se data posílala po telefonních kanálech.
 
 
-## členění modelu osi 
+## Členění modelu OSI 
 
-### horizontální dělení
-dělení na sistémy 
-dva tipi
+### Horizontální dělení
+Dělení na systémy  
+Dva typy
 - koncové systémy   (PC)
 - mezilehlé systémy [občas se mohou chovat jako koncové systémy] (switch, router)
 
-### vertikální dělení
-dělení na vrstvi
+### Vertikální dělení
+Dělení na vrstvy
 
 
-#### větičky
+#### Větičky
 7\. **Aplikační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Vzájemnou komunikaci aplikací.  
 6\. **Prezentační vrstva** &nbsp; --> &nbsp; Správná prezentace dat na koncovém systému.  
 5\. **Relační vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Stará se o zahájení, průběh a ukončení jednotlivých relací.  
@@ -26,9 +26,9 @@ dělení na vrstvi
 2\. **Linková vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Spolehlivý přenos mezi sousedními systémy.  
 1\. **Fyzická vrstva** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> &nbsp; Přenos jednotlivých bitů a synchronizace.
 
-## tok data modelem  
+## Tok data modelem  
 
-### enkapsulace a dekapsulace
+### Enkapsulace a dekapsulace
 N = číslo vrstvy
 ```
 N + 1|            |PDU|                 |

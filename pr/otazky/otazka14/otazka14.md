@@ -17,10 +17,10 @@
 - kódování (gramatika, pravidla)
 ### Signál 
 - zpráva, která se hodí k určitému přenosu
-- přechod z jednoho signálu na druhý :
-- změna abecedy
-- změna fyzikální podstaty
-- změna kódování
+- přechod z jednoho signálu na druhý:
+  - změna abecedy
+  - změna fyzikální podstaty
+  - změna kódování
 ### Redundance
 - Poměr užitečných informací vůči neužitečným
   - \- Zabírá místo			
@@ -37,8 +37,8 @@ co se zprávou musíme udělat, než ji pošleme po kanálu
 - spojuje dvě místa
 - přenáší signál
 - drát, trubka, vzduch, optické vlákno…
-- výhoda : spojuje dva body
-- nevýhody : je drahý, dělá chyby, neumí přenést vše, omezená kapacita
+- výhoda: spojuje dva body
+- nevýhody: je drahý, dělá chyby, neumí přenést vše, omezená kapacita
 - chyby: rušení a zkreslení
 ### Kodér zdroje 
 (komprese)
@@ -93,7 +93,7 @@ Komprimuje tak, že kóduje posloupnosti stejných hodnot do dvojic (délka posl
   1. obrázek převedu do **YCbCr**
   2. Snížení přesnosti informací o barvě (blok: barva 16x16, jas 8x8)
   3. Složky obrázku jsou následně rozděleny do bloků a na každém bloku je provedena diskrétní transformace
-  4. Provede se kvantizace (zde dochází k ztrátové kompresi)
+  4. Provede se kvantizace (zde dochází ke ztrátové kompresi)
   5. Zkomprimuje se pomocí bezeztrátové komprese **RLE** a použije se **Hufffmanovo kódování**
   
   
@@ -108,12 +108,12 @@ MPEG je *Moving Picture Experts Group* komprese pro video a audio.
   
 #### MPEG2
 - Postup komprimace: 
-  1. Stream se rozdělí do group, ty obsahují 12 frejmů  
-  typy frejmů:
+  1. Stream se rozdělí do group, ty obsahují 12 framů.  
+  Typy framů:
     - **I** - obrázek  .jpg
     - **P** - předvídání
     - **B** - bidirectional 
-  2. frejmům se přisadí tip  
+  2. Framům se přisadí tip  
   v pořadí:
           I B B P B B P B B P B B
     

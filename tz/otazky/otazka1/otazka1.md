@@ -1,33 +1,33 @@
 # 1. Telefonní přístroj – princip, druhy
 
-## Co to je telefonní přístroj, k čemu to slouží 
-Telefon je komunikační přístroj který přenáší zvuk mezi dvěma pevnými body.
+## Co to je telefonní přístroj, k čemu slouží 
+Telefon je komunikační přístroj, který přenáší zvuk mezi dvěma pevnými body.
 
 
-## zvuk a jeho vlastnosti 
-(kmitočet, úroveň hlasitosti, lidská řeč)
+## Zvuk a jeho vlastnosti 
+Kmitočet, úroveň hlasitosti, lidská řeč
 
-## elektroakustické měniče
-převodníky elektrického signálu na zvukové vlnění a obráceně
-### mikrofon
+## Elektroakustické měniče
+Převodníky elektrického signálu na zvukové vlnění a obráceně
+### Mikrofon
 - uhlíkový mikrofon
 - dynamický mikrofon
 - kondenzatorový mikrofon
 
-### sluchátko
+### Sluchátko
 
-## telefonní přístroj MB (LB)
+## Telefonní přístroj MB (LB)
 schéma
 
 protimístné zapojení
 
-## telefonní přístroj AUT 
+## Telefonní přístroj AUT 
 schéma
 
 číselnice
 
 
-### signalizace u klasického telefonu AUT – přenašeč typu U 
+### Signalizace u klasického telefonu AUT – přenašeč typu U 
 
 #### pulzní volba
 
@@ -38,13 +38,13 @@ proudy
 volba
 
 
-## ochrana vedení proti rušení 
+## Ochrana vedení proti rušení 
 symetrické vedení
 
-## komunikace telefonu s ústřednou 
+## Komunikace telefonu s ústřednou 
 
 
-## další telefony
+## Další telefony
 ### ISDN 
 
 ### VoIP 

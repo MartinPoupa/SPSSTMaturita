@@ -2,7 +2,7 @@
 
 
 ## Vrstvový model TCP/IP
-|ČÍSLO|VRSTVA|JEDNOTKA DAT|PROTOKOLI|POPIS|
+|ČÍSLO|VRSTVA|JEDNOTKA DAT|PROTOKOLY|POPIS|
 |---|---|---|---|---|
 |7\.|**Aplikační vrstva**|data|HTTP, FTP, SSH, MQTT|komunikace aplikací|
 |4\.|**Transportní vrstva**|segment|TCP, UDP|spojuje příjemce s odesílatelem|
@@ -12,7 +12,7 @@
 
 
 ### Navazování spojení HTTP
-|n.|protokol|odesílatel|příjemce|zprava|odpověď|
+|n.|protokol|odesílatel|příjemce|zpráva|odpověď|
 |---|---|---|---|---|---|
 |1. | ARP | Apple_d1:12:b1    |Broadcast     |Who has 192.168.1.1 Tell 192.168.1.180| |
 |2. | ARP | Routerbo_24:dd:ae |Apple_d1:12:b1|192.168.1.254 is at 64:d1:54:24:dd:ae|2.|

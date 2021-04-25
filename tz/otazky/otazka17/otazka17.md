@@ -1,10 +1,10 @@
 # 17. Zdroje světla pro telekomunikační systémy
 
-Zdroje světla slouží k tomu aby vyslali signál po optickém vláknu.
+Zdroje světla slouží k tomu, aby vyslaly signál po optickém vláknu.
 
-## parametry
-- vlnová délka λ v optické komunikaci se používají tito (850 nm , 1310 nm a 1550 nm)
-- víkon P  0 dB = 1 mW
+## Parametry
+- vlnová délka λ v optické komunikaci se používají tyto - 850 nm, 1310 nm a 1550 nm
+- výkon P  0 dB = 1 mW
 
 <img src="picture/spektrum_skla.png" alt="drawing" width="400"/><br>
 

@@ -14,7 +14,7 @@
 
 #### Celulární síť
 Celulární síť je metoda pokrytí oblasti signálem.
-Oblast je rozdělena do podobě velkých částí které se nazývají **buňky** (cell). Většinou mají tvar šestiúhelníků. V bunkách se opakují stejné frekvence ale ne ve dvodvou sousedních. Svazkem se nazívají bunky s rozdílnou frekvencí. Svazky můžeme skládat libovolně vedle sebe aniž by došlo k rušení.
+Oblast je rozdělena do podobně velkých částí, které se nazývají **buňky** (cell). Většinou mají tvar šestiúhelníků. V buňkách se opakují stejné frekvence, ale ne ve dvodvou sousedních. Svazkem se nazývají buňky s rozdílnou frekvencí. Svazky můžeme skládat libovolně vedle sebe, aniž by došlo k rušení.
 
 <img src="picture/cellularnetwork.png" alt="drawing" width="400"/><br>
 
@@ -30,8 +30,8 @@ Vysvětlete, jak jsou tvořeny kmitočtové plánypro celulární sítě. Vkolik
 ### AMR 
 **Automatizovaný Městský Radiotelefon**
 
-AMR byla Celulární síť s přepojováními okruhy, s analogovou signalizací a s analogovým přenosem hlasu.
-AMR nepodporovala mobilitu, museli jste vědět kde se uživatel nachází.
+AMR byla celulární síť s přepojováními okruhy, analogovou signalizací a s analogovým přenosem hlasu.
+AMR nepodporovala mobilitu, museli jste vědět, kde se uživatel nachází.
 
 
 
@@ -39,16 +39,16 @@ AMR nepodporovala mobilitu, museli jste vědět kde se uživatel nachází.
 ### NMT
 **Nordic Mobile Telephone**
 
-NMT byla Celulární síť s přepojováními okruhy, s digitální signalizací s analogovým přenosem hlasu.
+NMT byla celulární síť s přepojováními okruhy, digitální signalizací s analogovým přenosem hlasu.
 
-Přístup byl vázán na konkrétní stanici, SIM negzistovala.
+Přístup byl vázán na konkrétní stanici, SIM neexistovala.
 
 
 ## G2
 ### GSM
 **Global System for Mobile Communications**
 
-GSM je Celulární síť s přepojováními okruhy, s digitální signalizací s digitální přenosem hlasu.
+GSM je celulární síť s přepojováními okruhy, digitální signalizací s digitální přenosem hlasu.
 
 Uživatelská práva jsou vázány na SIM.
 
@@ -56,11 +56,11 @@ Uživatelská práva jsou vázány na SIM.
     BTS (Base transceiver station) = základnové stanice
     BSC (Base Station Controller) = řídící stanice 
     UE (User Equipmen) = uživatelský terminál (mobilní telefon)
-    MSC () = ustředna 
+    MSC () = ústředna 
 
 #### Přístupové metody
 Přístupové metody v GSM jsou **FDAM** a **TDAM**.
-FDAM jsou oddělené jednotlivé BTS ve svazku (Celulární síť). TDAM jsou uděleny jednotlivé time sloty pro komunikaci s UE. Každá frekvence je rozděla na 8 time slotů, přičemž je jeden vyhrazen signalizaci.
+FDAM jsou oddělené jednotlivé BTS ve svazku (celulární síť). TDAM jsou uděleny jednotlivé time sloty pro komunikaci s UE. Každá frekvence je rozděla na 8 time slotů, přičemž je jeden vyhrazen signalizaci.
 
 <img src="picture/xdma.png" alt="drawing" width="400"/><br>
 **A - FDAM, B - TDMA, C - CDMA**
@@ -85,7 +85,7 @@ EGPRS došlo k zvýšení rychlosti přenosu dat. Díky změně modulace.
 
 **Universal Mobile Telecommunications System**
 
-UMTS je Celulární síť s přepojováními okruhy, s digitální signalizací, s digitální přenosem hlasu a data se přepínání paketů.
+UMTS je celulární síť s přepojováními okruhy, digitální signalizací, digitálním přenosem hlasu a data s přepínáním paketů.
 
     G3      G2
     NodeB = BTS
@@ -93,7 +93,7 @@ UMTS je Celulární síť s přepojováními okruhy, s digitální signalizací,
     
 #### Přístupové metody
 Přístupové metody v UMTS jsou **FDAM** a **CDMA**.
-FDAM jsou oddělené jednotlivé NodeB ve svazku (Celulární síť). CDMA jsou oddělené jednotlivé UE.
+FDAM jsou oddělené jednotlivé NodeB ve svazku (celulární síť). CDMA jsou oddělené jednotlivé UE.
 
 #### Pásma
       1. 1,2 GHz
@@ -106,7 +106,7 @@ FDAM jsou oddělené jednotlivé NodeB ve svazku (Celulární síť). CDMA jsou 
 ### LTE
 **Long-Term Evolution**
 
-LTE je Celulární síť s přepínání paketů, s digitální signalizací a s digitální přenosem hlasu.
+LTE je celulární síť s přepínáním paketů, s digitální signalizací a s digitálním přenosem hlasu.
 
     G4      G2
     eNB  = BTS

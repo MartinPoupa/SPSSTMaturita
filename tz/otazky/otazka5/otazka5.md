@@ -1,17 +1,17 @@
 # 5. Signalizace ve spojovacích sítích
 
-**Signalizace** (v telefonních sítích) je proces ke sestavení a ukončení telefonního hovoru
+**Signalizace** (v telefonních sítích) je proces k sestavení a ukončení telefonního hovoru
 
-typy signalazice 
+Typy signalazice 
 CAS - stejný kanál jako hovor
 CCS - zvlášsní kanál
 
-##stavi Signalizace
+## Stavy Signalizace
 
 1. klid - klid
-2. obsazení (vizvedneme telefon)
-3. volba (natuáme číslo)
-4. vizvánení
+2. obsazení (vyzvedneme telefon)
+3. volba (natutáme číslo)
+4. vyzvánění
 5. hovor - klid
 6. ukončení hovoru
 
@@ -21,31 +21,31 @@ CCS - zvlášsní kanál
 ## Přenašeč tipu U
 typ CAS
 analogová Signalizace
-### stavi 
-klid - 48V, 0A
-obsazení - stejnosměrný proud pokles V, teče 2OmA
-volba - tónová nebo pulzní(pulzi 100 ms)
-vyzvánění - střídavé napětí 50Hz/25Hz 75V
-vyzvednutí - stejnosměrný proud pokles V, teče 2OmA 
+### Stavy 
+klid - 48V, 0A <br> 
+obsazení - stejnosměrný proud pokles V, teče 2OmA<br> 
+volba - tónová nebo pulzní(pulzi 100 ms)<br> 
+vyzvánění - střídavé napětí 50Hz/25Hz 75V<br> 
+vyzvednutí - stejnosměrný proud pokles V, teče 2OmA<br>  
 ukončení hovoru - 48V, 0A
 
 ## Signalizace DSS1 
-typ CAS 
-digitální Signalizace
+typ CAS <br> 
+digitální signalizace<br> 
 DSS1 používá se na ISDN rozhraní.
 ### ISDN
 zdroj
 http://www.elearn.vsb.cz/archivcd/FEI/ISDN/isdn_text.pdf
-#### vrstvi 
-1. fizická - AMI
+#### Vrstvy 
+1. fyzická - AMI
 2. linková - HDLC
-3. Sítová - DSS1
+3. síťová - DSS1
 
-### stavba packetu
+### Stavba packetu
 
 Protocol discriminator
 
-### stavi 
+### Stavy 
 <img src="picture/DSS1.png" alt="drawing" width="300"/><br>
 
 
@@ -53,13 +53,13 @@ Protocol discriminator
 typ CCS
 digitální Signalizace
 
-### dělení sítí
+### Dělení sítí
 - NAT 0 - provider
 - NAT 1 - stát
 - INAT 0 - mezistátní (evropa, usa)
 - INAT 1 - mezikontinettální (země)
 
-### typi ustředen
+### Typy ústředen
 - SP
 - STP 
 
