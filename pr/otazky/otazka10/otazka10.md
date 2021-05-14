@@ -20,7 +20,7 @@ Tyto spoje se často používají na propojení vzdálených stanic, které jsou
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;G_V) zisk vysílací antény [dBi]
 
-![](https://latex.codecogs.com/svg.latex?\Large&space;G_P) zisk vysílací antény [dBi]
+![](https://latex.codecogs.com/svg.latex?\Large&space;G_P) zisk přijímací antény [dBi]
 
 ![](https://latex.codecogs.com/svg.latex?\Large&space;L_S) celkové stálé ztráty [dB]
 
